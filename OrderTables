@@ -1,0 +1,54 @@
+@startuml
+object orders {
+ order_id 
+    wave_id 
+    user_id 
+    event_id 
+    shipping_type 
+    status 
+    order_date
+    order_refund_status 
+}
+
+
+object line_items{
+ line_items_id 
+ order_id 
+ product_id 
+ variant_id 
+ discount_id
+ line_items_quantity
+ }
+
+object refunds{
+refunds_id 
+line_items_id
+refunds_status 
+    }
+
+object transactions{
+transactions_id 
+order_id 
+amount 
+}
+
+object carts{
+cart_id 
+user_id 
+product_id 
+quantity 
+}
+
+object delivery_method{
+delivery_method_id
+delivery_method
+}
+
+orders---{line_items
+orders--{refunds
+orders--{transactions
+carts-{orders
+orders-{delivery_method
+
+
+@enduml
