@@ -1,54 +1,56 @@
 @startuml
 object orders {
- order_id 
+    order_id 
     wave_id 
     user_id 
-    event_id 
+    discount_id 
     shipping_type 
     status 
     order_date
-    order_refund_status 
-}
-
+    order_refund_status
+    timestamp 
+    }
 
 object line_items{
- line_items_id 
- order_id 
- product_id 
- variant_id 
- discount_id
- line_items_quantity
- }
+    line_items_id 
+    order_id 
+    product_id 
+    variant_id 
+    discount_id
+    line_items_quantity
+    }
 
 object refunds{
-refunds_id 
-line_items_id
-refunds_status 
+    refunds_id 
+    line_items_id
+    refunds_status 
+    timestamp
     }
 
 object transactions{
-transactions_id 
-order_id 
-amount 
-}
+    transactions_id 
+    order_id 
+    amount
+    timestamp
+    }
 
 object carts{
-cart_id 
-user_id 
-product_id 
-quantity 
-}
+    cart_id 
+    user_id 
+    product_id
+    varient_id 
+    quantity
+    discount_id 
+    }
 
 object delivery_method{
-delivery_method_id
-delivery_method
-}
+    delivery_method_id
+    delivery_method
+    }
 
 orders---{line_items
-orders--{refunds
+line_items--{refunds
 orders--{transactions
 carts-{orders
 orders-{delivery_method
-
-
 @enduml
