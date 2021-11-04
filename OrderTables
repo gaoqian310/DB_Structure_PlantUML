@@ -8,7 +8,6 @@ object orders {
     status 
     order_date
     order_refund_status
-    timestamp 
     }
 
 object line_items{
@@ -24,14 +23,14 @@ object refunds{
     refunds_id 
     line_items_id
     refunds_status 
-    timestamp
+    refunds_date
     }
 
 object transactions{
     transactions_id 
     order_id 
     amount
-    timestamp
+    transaction_time
     }
 
 object carts{
