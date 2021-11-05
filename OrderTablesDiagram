@@ -10,6 +10,7 @@ object orders {
     order_refund_status
     }
 
+
 object line_items{
     line_items_id 
     order_id 
@@ -19,6 +20,7 @@ object line_items{
     line_items_quantity
     }
 
+
 object refunds{
     refunds_id 
     line_items_id
@@ -26,12 +28,14 @@ object refunds{
     refunds_date
     }
 
+
 object transactions{
     transactions_id 
     order_id 
     amount
     transaction_time
     }
+
 
 object carts{
     cart_id 
@@ -42,14 +46,18 @@ object carts{
     discount_id 
     }
 
+
 object delivery_method{
     delivery_method_id
     delivery_method
     }
+
 
 orders---{line_items
 line_items--{refunds
 orders--{transactions
 carts-{orders
 orders-{delivery_method
+
+
 @enduml
