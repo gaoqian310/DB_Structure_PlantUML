@@ -32,6 +32,7 @@ object refunds{
 object transactions{
     transactions_id 
     order_id 
+    refunds_id
     amount
     transaction_time
     }
@@ -52,12 +53,17 @@ object delivery_method{
     delivery_method
     }
 
+object refunds_transactions{
+    refunds_transactions_id 
+    refunds_id
+    refunds_amount
+    refunds_transaction_time
+    }
 
-orders---{line_items
-line_items--{refunds
-orders--{transactions
-carts-{orders
-orders-{delivery_method
-
-
+orders ---{ line_items
+line_items }- refunds
+orders -- transactions
+carts - orders
+orders - delivery_method
+refunds - refunds_transactions
 @enduml
