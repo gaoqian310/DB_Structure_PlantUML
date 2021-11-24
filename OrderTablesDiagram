@@ -32,6 +32,7 @@ object refunds{
 object transactions{
     transactions_id 
     order_id 
+    refunds_id
     amount
     transaction_time
     }
@@ -58,6 +59,6 @@ line_items--{refunds
 orders--{transactions
 carts-{orders
 orders-{delivery_method
-
+refunds - transactions
 
 @enduml
