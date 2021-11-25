@@ -53,12 +53,16 @@ object delivery_method{
     delivery_method
     }
 
+object line_item_discount{
+    line_item_discount_id
+    line_item_id
+    }
+
 
 orders---{line_items
-line_items--{refunds
-orders--{transactions
-carts-{orders
-orders-{delivery_method
+line_items }-- refunds
+orders -- transactions
+carts - orders
+orders - delivery_method
 refunds - transactions
-
 @enduml
