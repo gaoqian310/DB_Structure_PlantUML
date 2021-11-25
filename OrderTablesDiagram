@@ -1,18 +1,17 @@
 @startuml
 object users{
     user_id [P]
-    user_type
     user_name
     user_password
-    gender
     date_entered
     }
 
-object customers{
+object customer_profiles{
     customer_id [P]
     user_id [F]
     customer_first_name
     customer_last_name
+    gender
     mobile
     phone
     email
@@ -45,22 +44,54 @@ object notifications_content{
     content_of_notification 
     }
 
-object shippers{
-    shipper_id [P]
+object picker_profiles{
+    picker_id [P]
     user_id [F]
-    shipper_others
+    can_lift_up_to_lb
+    note
     }
 
-Object staffs{
-    staff_id [P]
+object driver_profiles{
+    driver_id [P]
     user_id [F]
-    postions
+    license_class
+    airbrake_certification
+    can_lift_up_to_lb
+    note
     }
 
-users -- customers
-customers -- notifications_settings
+Object admin_profiles{
+    admin_id [P]
+    user_id [F]
+    note
+    }
+
+object vendor_profiles{
+    vendor_id [P]
+    user_id [F]
+    note
+    }
+
+object users_roles {
+    roles_id
+    user_id
+}
+
+object roles{
+    roles_id
+    roles_type
+    roles
+    }
+
+
+customer_profiles -- notifications_settings
 notifications_settings -- notifications_content
-customers --{addresses
-users -- shippers
-users -- staffs
+customer_profiles --{ addresses
+users -- customer_profiles
+users -- picker_profiles
+users -- driver_profiles
+users -- admin_profiles
+users -- vendor_profiles
+users_roles -- users
+users_roles - roles
 @enduml
