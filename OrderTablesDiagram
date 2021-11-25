@@ -3,18 +3,19 @@ object users{
     user_id [P]
     user_name
     user_password
+    first_name
+    last_name
+    phone
+    mobile
+    email
     date_entered
     }
 
 object customer_profiles{
     customer_id [P]
     user_id [F]
-    customer_first_name
-    customer_last_name
     gender
-    mobile
-    phone
-    email
+    note
     }
 
 object addresses{
@@ -78,10 +79,10 @@ object users_roles {
 }
 
 object roles{
-    roles_id
-    roles_type
-    roles
+    role_id
+    role_name
     }
+
 
 customer_profiles -- notifications_settings
 notifications_settings -- notifications_content
