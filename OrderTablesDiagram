@@ -1,63 +1,66 @@
 @startuml
-object orders {
-    order_id 
-    wave_id 
-    user_id 
-    discount_id 
-    shipping_type 
-    status 
-    order_date
-    order_refund_status
+object users{
+    user_id [P]
+    user_type
+    user_name
+    user_password
+    gender
+    date_entered
+    }
+
+object customers{
+    customer_id [P]
+    user_id [F]
+    customer_first_name
+    customer_last_name
+    mobile
+    phone
+    email
+    }
+
+object addresses{
+    addresses_id [P]
+    customer_id [F]
+    addresses_type
+    street_address
+    city
+    province
+    post_code
     }
 
 
-object line_items{
-    line_items_id 
-    order_id 
-    product_id 
-    variant_id 
-    discount_id
-    line_items_quantity
+object notifications_settings{
+    notification_id [P]
+    customer_id [F]
+    type (sms/email)
+    channel_content
+    notification(y/n)
+    promotional_content
     }
 
 
-object refunds{
-    refunds_id 
-    line_items_id
-    refunds_status 
-    refunds_date
+object notifications_content{
+    content_id [P]
+    notification_id [F]
+    content_of_notification 
     }
 
-
-object transactions{
-    transactions_id 
-    order_id 
-    amount
-    transaction_time
+object shippers{
+    shipper_id [P]
+    user_id [F]
+    shipper_others
     }
 
-
-object carts{
-    cart_id 
-    user_id 
-    product_id
-    varient_id 
-    quantity
-    discount_id 
+Object staffs{
+    staff_id [P]
+    user_id [F]
+    postions
     }
 
-
-object delivery_method{
-    delivery_method_id
-    delivery_method
-    }
-
-
-orders---{line_items
-line_items--{refunds
-orders--{transactions
-carts-{orders
-orders-{delivery_method
-
-
+users -- customers
+customers -- notifications_settings
+notifications_settings -- notifications_content
+customers --{addresses
+users -- shippers
+users -- staffs
 @enduml
