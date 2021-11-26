@@ -29,6 +29,7 @@ object addresses{
     }
 
 
+
 object notifications_settings{
     notification_id [P]
     customer_id [F]
