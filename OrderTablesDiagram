@@ -29,7 +29,6 @@ object addresses{
     }
 
 
-
 object notifications_settings{
     notification_id [P]
     customer_id [F]
@@ -75,9 +74,9 @@ object vendor_profiles{
     }
 
 object users_roles {
-    roles_id
+    roles_id 
     user_id
-}
+    }
 
 object roles{
     role_id
@@ -86,10 +85,11 @@ object roles{
 
 
 object orders {
-    order_id 
-    wave_id 
-    user_id 
-    discount_id 
+    order_id [P]
+    wave_id [F]
+    user_id [F]
+    order_discount_id [F]
+    order_amount
     shipping_type 
     status 
     order_date
@@ -98,59 +98,79 @@ object orders {
 
 
 object line_items{
-    line_items_id 
-    order_id 
-    product_id 
-    variant_id 
-    discount_id
+    line_items_id [P]
+    order_id [F]
+    product_id [F]
+    variant_id [F]
+    line_item_discount_id [F]
+    tax_id [F]
     line_items_quantity
+    line_items_total
+    }
+
+object tax{
+    tax_id [P]
+    province [F]
+    GST/HST
+    PST
+    total_tax_rate
     }
 
 
 object refunds{
-    refunds_id 
-    line_items_id
+    refunds_id [P]
+    line_items_id [F]
     refunds_status 
     refunds_date
     }
 
 
 object transactions{
-    transactions_id 
-    order_id 
-    refunds_id
+    transactions_id [P]
+    order_id [F]
+    refunds_id [F]
     amount
     transaction_time
     }
 
 
 object carts{
-    cart_id 
-    user_id 
-    product_id
-    varient_id 
+    cart_id [P]
+    user_id [F]
+    product_id [F]
+    varient_id [F]
     quantity
-    discount_id 
+    line_item_discount_id 
     }
 
 
 object delivery_method{
-    delivery_method_id
+    delivery_method_id [P]
     delivery_method
     }
 
-object line_item_discount{
-    line_item_discount_id
-    line_item_id
+object line_items_discount{
+    line_item_discount_id [P]
+    Line_items_id
+    discount_id [F]
     }
 
+object order_discount{
+    order_discount_id [P]
+    order_id [F]
+    discount_id [F]
+    }
 
 orders---{line_items
 line_items }-- refunds
-orders -- transactions
+orders - transactions
 carts - orders
-orders - delivery_method
+orders -- delivery_method
 refunds - transactions
+line_items }-- line_items_discount
+carts }- line_items_discount
+orders }- order_discount
+tax - line_items
 
 
 
