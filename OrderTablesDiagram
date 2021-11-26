@@ -173,7 +173,6 @@ orders }- order_discount
 tax - line_items
 
 
-
 customer_profiles -- notifications_settings
 notifications_settings -- notifications_content
 customer_profiles --{ addresses
