@@ -1,4 +1,89 @@
 @startuml
+object users{
+    user_id [P]
+    user_name
+    user_password
+    first_name
+    last_name
+    phone
+    mobile
+    email
+    date_entered
+    }
+
+object customer_profiles{
+    customer_id [P]
+    user_id [F]
+    gender
+    note
+    }
+
+object addresses{
+    addresses_id [P]
+    customer_id [F]
+    addresses_type
+    street_address
+    city
+    province
+    post_code
+    }
+
+
+object notifications_settings{
+    notification_id [P]
+    customer_id [F]
+    type (sms/email)
+    channel_content
+    notification(y/n)
+    promotional_content
+    }
+
+
+object notifications_content{
+    content_id [P]
+    notification_id [F]
+    content_of_notification 
+    }
+
+object picker_profiles{
+    picker_id [P]
+    user_id [F]
+    can_lift_up_to_lb
+    note
+    }
+
+object driver_profiles{
+    driver_id [P]
+    user_id [F]
+    license_class
+    airbrake_certification
+    can_lift_up_to_lb
+    note
+    }
+
+Object admin_profiles{
+    admin_id [P]
+    user_id [F]
+    note
+    }
+
+object vendor_profiles{
+    vendor_id [P]
+    user_id [F]
+    note
+    }
+
+object users_roles {
+    roles_id
+    user_id
+}
+
+object roles{
+    role_id
+    role_name
+    }
+
+
 object orders {
     order_id 
     wave_id 
@@ -32,6 +117,7 @@ object refunds{
 object transactions{
     transactions_id 
     order_id 
+    refunds_id
     amount
     transaction_time
     }
@@ -51,13 +137,30 @@ object delivery_method{
     delivery_method_id
     delivery_method
     }
-    
+
+object line_item_discount{
+    line_item_discount_id
+    line_item_id
+    }
+
 
 orders---{line_items
-line_items--{refunds
-orders--{transactions
-carts-{orders
-orders-{delivery_method
+line_items }-- refunds
+orders -- transactions
+carts - orders
+orders - delivery_method
+refunds - transactions
 
 
+
+customer_profiles -- notifications_settings
+notifications_settings -- notifications_content
+customer_profiles --{ addresses
+users -- customer_profiles
+users -- picker_profiles
+users -- driver_profiles
+users -- admin_profiles
+users -- vendor_profiles
+users_roles -- users
+users_roles - roles
 @enduml
