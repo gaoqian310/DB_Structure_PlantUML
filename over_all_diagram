@@ -1,4 +1,93 @@
 @startuml
+object orders {
+    order_id [P]
+    wave_id [F]
+    user_id [F]
+    order_discount_id [F]
+    order_amount
+    shipping_type 
+    status 
+    order_date
+    order_refund_status
+    }
+
+
+object line_items{
+    line_items_id [P]
+    order_id [F]
+    product_id [F]
+    variant_id [F]
+    line_item_discount_id [F]
+    tax_id [F]
+    line_items_quantity
+    line_items_total
+    }
+
+object tax{
+    tax_id [P]
+    province [F]
+    GST/HST
+    PST
+    total_tax_rate
+    }
+
+
+object refunds{
+    refunds_id [P]
+    line_items_id [F]
+    refunds_status 
+    refunds_date
+    }
+
+
+object transactions{
+    transactions_id [P]
+    order_id [F]
+    refunds_id [F]
+    amount
+    transaction_time
+    }
+
+
+object carts{
+    cart_id [P]
+    user_id [F]
+    product_id [F]
+    varient_id [F]
+    quantity
+    line_item_discount_id 
+    }
+
+
+object delivery_method{
+    delivery_method_id [P]
+    delivery_method
+    }
+
+object line_items_discount{
+    line_item_discount_id [P]
+    Line_items_id
+    discount_id [F]
+    }
+
+object order_discount{
+    order_discount_id [P]
+    order_id [F]
+    discount_id [F]
+    }
+
+order_discount --{ orders
+carts - orders
+orders --{ line_items
+line_items }- refunds
+orders -- transactions
+orders - delivery_method
+refunds - transactions
+tax - line_items
+line_items_discount -{ line_items
+line_items_discount -{ carts
+
+
 object users{
     user_id [P]
     user_name
@@ -84,95 +173,6 @@ object roles{
     }
 
 
-object orders {
-    order_id [P]
-    wave_id [F]
-    user_id [F]
-    order_discount_id [F]
-    order_amount
-    shipping_type 
-    status 
-    order_date
-    order_refund_status
-    }
-
-
-object line_items{
-    line_items_id [P]
-    order_id [F]
-    product_id [F]
-    variant_id [F]
-    line_item_discount_id [F]
-    tax_id [F]
-    line_items_quantity
-    line_items_total
-    }
-
-object tax{
-    tax_id [P]
-    province [F]
-    GST/HST
-    PST
-    total_tax_rate
-    }
-
-
-object refunds{
-    refunds_id [P]
-    line_items_id [F]
-    refunds_status 
-    refunds_date
-    }
-
-
-object transactions{
-    transactions_id [P]
-    order_id [F]
-    refunds_id [F]
-    amount
-    transaction_time
-    }
-
-
-object carts{
-    cart_id [P]
-    user_id [F]
-    product_id [F]
-    varient_id [F]
-    quantity
-    line_item_discount_id 
-    }
-
-
-object delivery_method{
-    delivery_method_id [P]
-    delivery_method
-    }
-
-object line_items_discount{
-    line_item_discount_id [P]
-    Line_items_id
-    discount_id [F]
-    }
-
-object order_discount{
-    order_discount_id [P]
-    order_id [F]
-    discount_id [F]
-    }
-
-orders---{line_items
-line_items }-- refunds
-orders - transactions
-carts - orders
-orders -- delivery_method
-refunds - transactions
-line_items }-- line_items_discount
-carts }- line_items_discount
-orders }- order_discount
-tax - line_items
-
-
 customer_profiles -- notifications_settings
 notifications_settings -- notifications_content
 customer_profiles --{ addresses
@@ -183,4 +183,95 @@ users -- admin_profiles
 users -- vendor_profiles
 users_roles -- users
 users_roles - roles
+
+object products{
+    product_id [P]
+    brand_id [F]
+    supplier_id [F]
+    category_id [F]
+    vendor_product_id [F]
+    product_name
+    product_description
+    options
+    picture
+    rating
+    related
+    note
+    }
+
+object brands{
+    brand_id [P]
+    product_id [F]
+    brand_name
+    }
+
+object reviews{
+    review_id [P]
+    product_id [F]
+    customer_ratings
+    review_text
+    }
+
+object categories{
+    category_id [P]
+    category_name
+    }
+
+object sub_categories{
+    sub_category_id [P]
+    category_id [F]
+    product_id [F]
+    sub_category_name
+    sub_category_image
+    sub_category_description
+    }
+
+object variants{
+    variant_id [P]
+    product_id [F]
+    variant_description
+    store_name
+    SKU
+    size
+    color
+    weight
+    weight_unit
+    unit_price
+    msrp
+    discount_id
+    taxable_or_not
+    dimensions_length
+    dimensions_length_unit
+    dimensions_width
+    dimensions_width_unit
+    dimensions_height
+    dimensions_heighe_unit
+    units_in_stock
+    }
+
+object discounts{
+    discount_id [P]
+    variant_id [F]
+    events_id [F]
+    discount_type
+    discount_amount
+    discount_description
+    }
+
+object event_products{
+    event_product_id
+    break_out_quantity
+    discount_id
+    event_id
+    variant_id
+    }
+
+
+categories -{ sub_categories
+sub_categories --{ products 
+brands -{ products
+products --{ reviews
+products -{ variants
+variants -{ discounts
+event_products --{ variants
 @enduml
