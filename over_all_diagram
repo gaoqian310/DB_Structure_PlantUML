@@ -76,16 +76,39 @@ object order_discount{
     discount_id [F]
     }
 
+object giftcards{
+    giftcard_id [F]
+    gift_number
+    customer_id
+    vendor_id
+    PIN
+    status
+    balance
+    }
+    
+object transaction_steps{
+    step_id [P]
+    order_id [F]
+    payment_type
+    payment_amount
+    payment_preauthrization
+    payment_processing
+    payment_confirmation
+    }
+
 order_discount --{ orders
 carts - orders
 orders --{ line_items
 line_items }- refunds
-orders -- transactions
+orders -{ transaction_steps
+transaction_steps }- transactions
+giftcards }-{ transaction_steps
 orders - delivery_method
 refunds - transactions
 tax - line_items
 line_items_discount -{ line_items
 line_items_discount -{ carts
+
 
 
 object users{
