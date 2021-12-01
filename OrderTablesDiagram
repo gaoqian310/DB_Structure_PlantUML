@@ -70,13 +70,23 @@ Object admin_profiles{
 object vendor_profiles{
     vendor_id [P]
     user_id [F]
-    note
+    vendor_name
+    vendor_mailing_address
+    vendor_contact_name
+    vendor_contact_phone
+    vendor_contact_email
+    gst_number
+    vendor_logo_url
+    business_license_num
+    vendor_website_url
+    vendor_business_type
+    vendor_notes
     }
 
 object users_roles {
-    roles_id
+    roles_id 
     user_id
-}
+    }
 
 object roles{
     role_id
@@ -87,11 +97,11 @@ object roles{
 customer_profiles -- notifications_settings
 notifications_settings -- notifications_content
 customer_profiles --{ addresses
-users -- customer_profiles
-users -- picker_profiles
-users -- driver_profiles
-users -- admin_profiles
-users -- vendor_profiles
+users --- customer_profiles
+users --- picker_profiles
+users --- driver_profiles
+users --- admin_profiles
+users --- vendor_profiles
 users_roles -- users
 users_roles - roles
 @enduml
