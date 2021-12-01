@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="846px" preserveAspectRatio="none" style="width:826px;height:846px;background:#FFFFFF;" version="1.1" viewBox="0 0 826 846" width="826px" zoomAndPan="magnify"><defs><filter height="300%" id="f10s10ownjov00" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="130.7344" style="stroke:#A80036;stroke-width:1.5;" width="90" x="388" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="34" x="416" y="129.1387">users</text><line style="stroke:#A80036;stroke-width:1.5;" x1="389" x2="477" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="394" y="147.251">user_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="60" x="394" y="158.8916">user_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="394" y="170.5322">user_password</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="57" x="394" y="182.1729">first_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="56" x="394" y="193.8135">last_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="35" x="394" y="205.4541">phone</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="394" y="217.0947">mobile</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="31" x="394" y="228.7354">email</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="394" y="240.376">date_entered</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="123" x="71.5" y="420"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="109" x="78.5" y="433.1387">customer_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="72.5" x2="193.5" y1="437.9688" y2="437.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="77.5" y="451.251">customer_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="77.5" y="462.8916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="39" x="77.5" y="474.5322">gender</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="77.5" y="486.1729">note</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="107.4531" style="stroke:#A80036;stroke-width:1.5;" width="98" x="7" y="605"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="23.5" y="618.1387">addresses</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="104" y1="622.9688" y2="622.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="86" x="13" y="636.251">addresses_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="13" y="647.8916">customer_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="13" y="659.5322">addresses_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="13" y="671.1729">street_address</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="19" x="13" y="682.8135">city</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="47" x="13" y="694.4541">province</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="13" y="706.0947">post_code</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="140" x="140" y="610.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="126" x="147" y="623.6387">notifications_settings</text><line style="stroke:#A80036;stroke-width:1.5;" x1="141" x2="279" y1="628.4688" y2="628.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="146" y="641.751">notification_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="146" y="653.3916">customer_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="146" y="665.0322">type (sms/email)</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="91" x="146" y="676.6729">channel_content</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="86" x="146" y="688.3135">notification(y/n)</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="114" x="146" y="699.9541">promotional_content</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="137" x="141.5" y="772"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="148.5" y="785.1387">notifications_content</text><line style="stroke:#A80036;stroke-width:1.5;" x1="142.5" x2="277.5" y1="789.9688" y2="789.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="147.5" y="803.251">content_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="147.5" y="814.8916">notification_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="125" x="147.5" y="826.5322">content_of_notification</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="104" x="230" y="420"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="237" y="433.1387">picker_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="231" x2="333" y1="437.9688" y2="437.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="65" x="236" y="451.251">picker_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="236" y="462.8916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="89" x="236" y="474.5322">can_lift_up_to_lb</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="236" y="486.1729">note</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="127" x="369.5" y="408.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="389" y="421.6387">driver_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="370.5" x2="495.5" y1="426.4688" y2="426.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="63" x="375.5" y="439.751">driver_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="375.5" y="451.3916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="69" x="375.5" y="463.0322">license_class</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="115" x="375.5" y="474.6729">airbrake_certification</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="89" x="375.5" y="486.3135">can_lift_up_to_lb</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="375.5" y="497.9541">note</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="102" x="532" y="426"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="539" y="439.1387">admin_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="533" x2="633" y1="443.9688" y2="443.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="538" y="457.251">admin_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="538" y="468.8916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="538" y="480.5322">note</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="177.2969" style="stroke:#A80036;stroke-width:1.5;" width="143" x="669.5" y="368"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="693.5" y="381.1387">vendor_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="670.5" x2="811.5" y1="385.9688" y2="385.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="675.5" y="399.251">vendor_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="675.5" y="410.8916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="75" x="675.5" y="422.5322">vendor_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="131" x="675.5" y="434.1729">vendor_mailing_address</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="121" x="675.5" y="445.8135">vendor_contact_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="124" x="675.5" y="457.4541">vendor_contact_phone</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="120" x="675.5" y="469.0947">vendor_contact_email</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="675.5" y="480.7354">gst_number</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="86" x="675.5" y="492.376">vendor_logo_url</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="119" x="675.5" y="504.0166">business_license_num</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="103" x="675.5" y="515.6572">vendor_website_url</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="118" x="675.5" y="527.2979">vendor_business_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="675.5" y="538.9385">vendor_notes</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="85" x="390.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="397.5" y="20.1387">users_roles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="391.5" x2="474.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="41" x="396.5" y="38.251">roles_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="396.5" y="49.8916">user_id</text><rect fill="#FEFECE" filter="url(#f10s10ownjov00)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="70" x="511" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="530.5" y="20.1387">roles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="512" x2="580" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="36" x="517" y="38.251">role_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="58" x="517" y="49.8916">role_name</text><!--MD5=[24cda88595a6a49d70fd5daa8cacd3c6]
+link customer_profiles to notifications_settings--><path codeLine="96" d="M146.766,493.256 C159.354,525.952 178.06,574.538 191.863,610.39 " fill="none" id="customer_profiles-notifications_settings" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[953ce153f7cba82035c57a07a67d6bad]
+link notifications_settings to notifications_content--><path codeLine="97" d="M210,706.784 C210,728.245 210,752.9714 210,771.7781 " fill="none" id="notifications_settings-notifications_content" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[569611bb1bc4dd4a1838f8e6a8989178]
+link customer_profiles to addresses--><path codeLine="98" d="M119.234,493.256 C108.134,522.086 92.2781,563.271 79.2208,597.186 " fill="none" id="customer_profiles-to-addresses" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="79.1838" x2="83.7753" y1="597.2822" y2="604.748"/><line style="stroke:#A80036;stroke-width:1.0;" x1="79.1838" x2="68.8437" y1="597.2822" y2="604.748"/><line style="stroke:#A80036;stroke-width:1.0;" x1="79.1838" x2="76.3095" y1="597.2822" y2="604.748"/><!--MD5=[f55f9ef173ac0b9de569bea65f80c2a7]
+link users to customer_profiles--><path codeLine="99" d="M387.84,217.382 C342.043,253.442 269.867,312.185 212,368 C195.06,384.34 177.397,403.656 163.08,419.978 " fill="none" id="users-customer_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3ca6ff7eaeb0afea57df1105fc573b96]
+link users to picker_profiles--><path codeLine="100" d="M397.215,247.197 C367.388,301.122 326.001,375.948 301.806,419.692 " fill="none" id="users-picker_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c01c1a1aa1dd7d5b5ef785baf0f70c6f]
+link users to driver_profiles--><path codeLine="101" d="M433,247.197 C433,296.707 433,363.836 433,408.351 " fill="none" id="users-driver_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[22440d20bcdaed0af5387131fac61c80]
+link users to admin_profiles--><path codeLine="102" d="M468.548,247.197 C499.65,303.803 543.406,383.438 566.779,425.978 " fill="none" id="users-admin_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[24057c6f157cfc775705f1227a1f0206]
+link users to vendor_profiles--><path codeLine="103" d="M478.003,219.313 C522.613,256.148 592.553,314.828 651,368 C656.964,373.426 663.085,379.111 669.191,384.868 " fill="none" id="users-vendor_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1b4379072089a660803adbb05cc8adc9]
+link users_roles to users--><path codeLine="104" d="M433,56.279 C433,72.458 433,94.701 433,115.898 " fill="none" id="users_roles-users" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b9cbd6be50dba5b5358cc772b5997021]
+link users_roles to roles--><path codeLine="105" d="M475.816,31.5 C487.514,31.5 499.211,31.5 510.908,31.5 " fill="none" id="users_roles-roles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[76cddd08f19f9b87a22515a6bf6a7be1]
+@startuml
+object users{
+    user_id [P]
+    user_name
+    user_password
+    first_name
+    last_name
+    phone
+    mobile
+    email
+    date_entered
+    }
+
+object customer_profiles{
+    customer_id [P]
+    user_id [F]
+    gender
+    note
+    }
+
+object addresses{
+    addresses_id [P]
+    customer_id [F]
+    addresses_type
+    street_address
+    city
+    province
+    post_code
+    }
+
+
+object notifications_settings{
+    notification_id [P]
+    customer_id [F]
+    type (sms/email)
+    channel_content
+    notification(y/n)
+    promotional_content
+    }
+
+
+object notifications_content{
+    content_id [P]
+    notification_id [F]
+    content_of_notification 
+    }
+
+object picker_profiles{
+    picker_id [P]
+    user_id [F]
+    can_lift_up_to_lb
+    note
+    }
+
+object driver_profiles{
+    driver_id [P]
+    user_id [F]
+    license_class
+    airbrake_certification
+    can_lift_up_to_lb
+    note
+    }
+
+Object admin_profiles{
+    admin_id [P]
+    user_id [F]
+    note
+    }
+
+object vendor_profiles{
+    vendor_id [P]
+    user_id [F]
+    vendor_name
+    vendor_mailing_address
+    vendor_contact_name
+    vendor_contact_phone
+    vendor_contact_email
+    gst_number
+    vendor_logo_url
+    business_license_num
+    vendor_website_url
+    vendor_business_type
+    vendor_notes
+    }
+
+object users_roles {
+    roles_id 
+    user_id
+    }
+
+object roles{
+    role_id
+    role_name
+    }
+
+
+customer_profiles - - notifications_settings
+notifications_settings - - notifications_content
+customer_profiles - -{ addresses
+users - - - customer_profiles
+users - - - picker_profiles
+users - - - driver_profiles
+users - - - admin_profiles
+users - - - vendor_profiles
+users_roles - - users
+users_roles - roles
+@enduml
+
+PlantUML version 1.2021.15(Tue Nov 30 16:45:34 UTC 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
