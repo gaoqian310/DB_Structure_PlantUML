@@ -31,7 +31,6 @@ object tax{
     total_tax_rate
     }
 
-
 object refunds{
     refunds_id [P]
     line_items_id [F]
