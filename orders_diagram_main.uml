@@ -23,6 +23,7 @@ object line_items{
     line_items_total
     }
 
+
 object tax{
     tax_id [P]
     province [F]
@@ -96,6 +97,7 @@ object transaction_steps{
     payment_confirmation
     }
 
+
 order_discount --{ orders
 carts - orders
 orders --{ line_items
@@ -108,5 +110,6 @@ refunds - transactions
 tax - line_items
 line_items_discount -{ line_items
 line_items_discount -{ carts
+
 
 @enduml
