@@ -11,7 +11,6 @@ object orders {
     order_refund_status
     }
 
-
 object line_items{
     line_items_id [P]
     order_id [F]
@@ -23,7 +22,6 @@ object line_items{
     line_items_total
     }
 
-
 object tax{
     tax_id [P]
     province [F]
@@ -31,7 +29,6 @@ object tax{
     PST
     total_tax_rate
     }
-
 
 object refunds{
     refunds_id [P]
@@ -110,6 +107,4 @@ refunds - transactions
 tax - line_items
 line_items_discount -{ line_items
 line_items_discount -{ carts
-
-
 @enduml
