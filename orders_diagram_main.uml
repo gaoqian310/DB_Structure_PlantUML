@@ -42,8 +42,12 @@ object transactions{
     transactions_id [P]
     order_id [F]
     refunds_id [F]
-    amount
     transaction_time
+    transactions_type
+    transactions_amount
+    payment_confirmation_id [F]
+    transactions_status 
+      (complete/pending/declined)
     }
 
 
@@ -74,37 +78,20 @@ object order_discount{
     discount_id [F]
     }
 
-object giftcards{
-    giftcard_id [F]
-    gift_number
-    customer_id
-    vendor_id
-    PIN
-    status
-    balance
+object stripe{
+    payment_confirmation_id [P]
     }
     
-object transaction_steps{
-    step_id [P]
-    order_id [F]
-    payment_type
-    payment_amount
-    payment_preauthrization
-    payment_processing
-    payment_confirmation
-    }
-
 
 order_discount --{ orders
 carts - orders
 orders --{ line_items
 line_items }- refunds
-orders -{ transaction_steps
-transaction_steps }- transactions
-giftcards }-{ transaction_steps
+orders - transactions
 orders - delivery_method
 refunds - transactions
 tax - line_items
 line_items_discount -{ line_items
 line_items_discount -{ carts
+stripe -- transactions
 @enduml
