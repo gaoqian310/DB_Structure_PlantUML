@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="805px" preserveAspectRatio="none" style="width:1291px;height:805px;background:#FFFFFF;" version="1.1" viewBox="0 0 1291 805" width="1291px" zoomAndPan="magnify"><defs><filter height="300%" id="fb9ah335x0twq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="130.7344" style="stroke:#A80036;stroke-width:1.5;" width="124" x="779.5" y="470"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="41" x="821" y="483.1387">orders</text><line style="stroke:#A80036;stroke-width:1.5;" x1="780.5" x2="902.5" y1="487.9688" y2="487.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="785.5" y="501.251">order_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="60" x="785.5" y="512.8916">wave_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="785.5" y="524.5322">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="112" x="785.5" y="536.1729">order_discount_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="77" x="785.5" y="547.8135">order_amount</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="75" x="785.5" y="559.4541">shipping_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="32" x="785.5" y="571.0947">status</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="59" x="785.5" y="582.7354">order_date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="107" x="785.5" y="594.376">order_refund_status</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="145" x="605" y="667"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="647.5" y="680.1387">line_items</text><line style="stroke:#A80036;stroke-width:1.5;" x1="606" x2="749" y1="684.9688" y2="684.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="611" y="698.251">line_items_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="611" y="709.8916">order_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="611" y="721.5322">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="611" y="733.1729">variant_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="133" x="611" y="744.8135">line_item_discount_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="49" x="611" y="756.4541">tax_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="105" x="611" y="768.0947">line_items_quantity</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="85" x="611" y="779.7354">line_items_total</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="84.1719" style="stroke:#A80036;stroke-width:1.5;" width="86" x="483.5" y="684.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="18" x="517.5" y="697.6387">tax</text><line style="stroke:#A80036;stroke-width:1.5;" x1="484.5" x2="568.5" y1="702.4688" y2="702.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="49" x="489.5" y="715.751">tax_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="489.5" y="727.3916">province [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="47" x="489.5" y="739.0322">GST/HST</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="20" x="489.5" y="750.6729">PST</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="489.5" y="762.3135">total_tax_rate</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="99" x="785" y="690"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="811.5" y="703.1387">refunds</text><line style="stroke:#A80036;stroke-width:1.5;" x1="786" x2="883" y1="707.9688" y2="707.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="791" y="721.251">refunds_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="791" y="732.8916">line_items_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="791" y="744.5322">refunds_status</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="791" y="756.1729">refunds_date</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="130.7344" style="stroke:#A80036;stroke-width:1.5;" width="170" x="919.5" y="661"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="968" y="674.1387">transactions</text><line style="stroke:#A80036;stroke-width:1.5;" x1="920.5" x2="1088.5" y1="678.9688" y2="678.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="98" x="925.5" y="692.251">transactions_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="925.5" y="703.8916">order_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="925.5" y="715.5322">refunds_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="91" x="925.5" y="727.1729">transaction_time</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="95" x="925.5" y="738.8135">transactions_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="114" x="925.5" y="750.4541">transactions_amount</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="156" x="925.5" y="762.0947">payment_confirmation_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="103" x="925.5" y="773.7354">transactions_status</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="158" x="925.5" y="785.376">(complete/pending/declined)</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="128" x="616.5" y="487.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="665.5" y="500.6387">carts</text><line style="stroke:#A80036;stroke-width:1.5;" x1="617.5" x2="743.5" y1="505.4688" y2="505.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="53" x="622.5" y="518.751">cart_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="622.5" y="530.3916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="622.5" y="542.0322">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="622.5" y="553.6729">varient_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="45" x="622.5" y="565.3135">quantity</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="116" x="622.5" y="576.9541">line_item_discount_id</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="135" x="939" y="511"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="956" y="524.1387">delivery_method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="940" x2="1073" y1="528.9688" y2="528.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="123" x="945" y="542.251">delivery_method_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="91" x="945" y="553.8916">delivery_method</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="145" x="436" y="505"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="450" y="518.1387">line_items_discount</text><line style="stroke:#A80036;stroke-width:1.5;" x1="437" x2="580" y1="522.9688" y2="522.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="133" x="442" y="536.251">line_item_discount_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="442" y="547.8916">Line_items_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="442" y="559.5322">discount_id [F]</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="124" x="692.5" y="256"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="709" y="269.1387">order_discount</text><line style="stroke:#A80036;stroke-width:1.5;" x1="693.5" x2="815.5" y1="273.9688" y2="273.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="112" x="698.5" y="287.251">order_discount_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="698.5" y="298.8916">order_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="698.5" y="310.5322">discount_id [F]</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="168" x="1109.5" y="516.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="1176" y="529.6387">stripe</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1110.5" x2="1276.5" y1="534.4688" y2="534.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="156" x="1115.5" y="547.751">payment_confirmation_id [P]</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="165.6563" style="stroke:#A80036;stroke-width:1.5;" width="129" x="149" y="203.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="186.5" y="216.6387">products</text><line style="stroke:#A80036;stroke-width:1.5;" x1="150" x2="277" y1="221.4688" y2="221.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="155" y="234.751">product_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="155" y="246.3916">brand_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="75" x="155" y="258.0322">supplier_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="80" x="155" y="269.6729">category_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="117" x="155" y="281.3135">vendor_product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="79" x="155" y="292.9541">product_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="107" x="155" y="304.5947">product_description</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="155" y="316.2354">options</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="155" y="327.876">picture</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="32" x="155" y="339.5166">rating</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="39" x="155" y="351.1572">related</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="155" y="362.7979">note</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="86" x="27.5" y="256"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="49.5" y="269.1387">brands</text><line style="stroke:#A80036;stroke-width:1.5;" x1="28.5" x2="112.5" y1="273.9688" y2="273.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="33.5" y="287.251">brand_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="33.5" y="298.8916">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="69" x="33.5" y="310.5322">brand_name</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="105" x="161" y="499"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="189.5" y="512.1387">reviews</text><line style="stroke:#A80036;stroke-width:1.5;" x1="162" x2="265" y1="516.9688" y2="516.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="167" y="530.251">review_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="167" y="541.8916">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="93" x="167" y="553.5322">customer_ratings</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="167" y="565.1729">review_text</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="97" x="7" y="30.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="23" y="43.6387">categories</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="103" y1="48.4688" y2="48.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="80" x="13" y="61.751">category_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="85" x="13" y="73.3916">category_name</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="149" x="139" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="93" x="167" y="20.1387">sub_categories</text><line style="stroke:#A80036;stroke-width:1.5;" x1="140" x2="287" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="104" x="145" y="38.251">sub_category_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="80" x="145" y="49.8916">category_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="145" y="61.5322">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="109" x="145" y="73.1729">sub_category_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="112" x="145" y="84.8135">sub_category_image</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="137" x="145" y="96.4541">sub_category_description</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="247.1406" style="stroke:#A80036;stroke-width:1.5;" width="143" x="313" y="163"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="361" y="176.1387">variants</text><line style="stroke:#A80036;stroke-width:1.5;" x1="314" x2="455" y1="180.9688" y2="180.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="319" y="194.251">variant_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="319" y="205.8916">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="103" x="319" y="217.5322">variant_description</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="319" y="229.1729">store_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="22" x="319" y="240.8135">SKU</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="21" x="319" y="252.4541">size</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="27" x="319" y="264.0947">color</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="36" x="319" y="275.7354">weight</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="319" y="287.376">weight_unit</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="53" x="319" y="299.0166">unit_price</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="319" y="310.6572">discount_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="80" x="319" y="322.2979">taxable_or_not</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="102" x="319" y="333.9385">dimensions_length</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="128" x="319" y="345.5791">dimensions_length_unit</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="96" x="319" y="357.2197">dimensions_width</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="122" x="319" y="368.8604">dimensions_width_unit</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="102" x="319" y="380.501">dimensions_height</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="131" x="319" y="392.1416">dimensions_heighe_unit</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="319" y="403.7822">units_in_stock</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="123" x="491" y="238.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="523.5" y="251.6387">discounts</text><line style="stroke:#A80036;stroke-width:1.5;" x1="492" x2="613" y1="256.4688" y2="256.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="497" y="269.751">discount_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="497" y="281.3916">variant_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="68" x="497" y="293.0322">events_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="75" x="497" y="304.6729">discount_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="497" y="316.3135">discount_amount</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="111" x="497" y="327.9541">discount_description</text><rect fill="#FEFECE" filter="url(#fb9ah335x0twq)" height="84.1719" style="stroke:#A80036;stroke-width:1.5;" width="116" x="326.5" y="13"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="94" x="337.5" y="26.1387">event_products</text><line style="stroke:#A80036;stroke-width:1.5;" x1="327.5" x2="441.5" y1="30.9688" y2="30.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="93" x="332.5" y="44.251">event_product_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="104" x="332.5" y="55.8916">break_out_quantity</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="332.5" y="67.5322">discount_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="46" x="332.5" y="79.1729">event_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="53" x="332.5" y="90.8135">variant_id</text><!--MD5=[34839f3ab3b8732ec3bac2c680c42ddf]
+link order_discount to orders--><path codeLine="85" d="M764.994,317.294 C777.564,352.98 799.052,413.987 816.061,462.277 " fill="none" id="order_discount-to-orders" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="816.0938" x2="826.2968" y1="462.3662" y2="469.912"/><line style="stroke:#A80036;stroke-width:1.0;" x1="816.0938" x2="811.2052" y1="462.3662" y2="469.912"/><line style="stroke:#A80036;stroke-width:1.0;" x1="816.0938" x2="818.751" y1="462.3662" y2="469.912"/><!--MD5=[2f4dbe3de66ed9070ca67241faecf33d]
+link carts to orders--><path codeLine="86" d="M744.648,535.5 C756.25,535.5 767.852,535.5 779.454,535.5 " fill="none" id="carts-orders" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[540377f8778e530fc5d86c14f9ba72f7]
+link orders to line_items--><path codeLine="87" d="M785.519,601.014 C768.773,620.313 750.412,641.473 733.655,660.785 " fill="none" id="orders-to-line_items" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="733.5174" x2="734.3161" y1="660.9429" y2="666.985"/><line style="stroke:#A80036;stroke-width:1.0;" x1="733.5174" x2="722.2319" y1="660.9429" y2="666.985"/><line style="stroke:#A80036;stroke-width:1.0;" x1="733.5174" x2="728.274" y1="660.9429" y2="666.985"/><!--MD5=[7cf65c7945e4b18638b1f3a04a691af5]
+reverse link line_items to refunds--><path codeLine="88" d="M758.28,726.5 C767.107,726.5 775.934,726.5 784.761,726.5 " fill="none" id="line_items-backto-refunds" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="758.174" x2="750.174" y1="726.5" y2="734.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="758.174" x2="750.174" y1="726.5" y2="718.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="758.174" x2="750.174" y1="726.5" y2="726.5"/><!--MD5=[f9b7a97b3d6a875c39c020d86f9eb75c]
+link orders to transactions--><path codeLine="89" d="M897.139,601.014 C913.832,620.37 932.14,641.598 948.835,660.956 " fill="none" id="orders-transactions" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a5dcad50fa5b061ba55aea11453d8ac6]
+link orders to delivery_method--><path codeLine="90" d="M903.697,535.5 C915.343,535.5 926.989,535.5 938.634,535.5 " fill="none" id="orders-delivery_method" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0b9d1d0030388e67ed76b54940a43c29]
+link refunds to transactions--><path codeLine="91" d="M884.305,726.5 C895.886,726.5 907.467,726.5 919.049,726.5 " fill="none" id="refunds-transactions" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a88e5061fe7d72a87d1eafbb80b6bf1a]
+link tax to line_items--><path codeLine="92" d="M569.559,726.5 C581.365,726.5 593.171,726.5 604.977,726.5 " fill="none" id="tax-line_items" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f40cb529cbfaf6345b1d425c84bfdf0a]
+link line_items_discount to line_items--><path codeLine="93" d="M534.906,566.031 C557.448,591.24 590.679,628.404 619.392,660.515 " fill="none" id="line_items_discount-to-line_items" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="619.7366" x2="631.0327" y1="660.9003" y2="666.864"/><line style="stroke:#A80036;stroke-width:1.0;" x1="619.7366" x2="619.1053" y1="660.9003" y2="666.864"/><line style="stroke:#A80036;stroke-width:1.0;" x1="619.7366" x2="625.069" y1="660.9003" y2="666.864"/><!--MD5=[bf6f05175817591759b21d4858c1e843]
+link line_items_discount to carts--><path codeLine="94" d="M581.062,535.5 C590.175,535.5 599.288,535.5 608.401,535.5 " fill="none" id="line_items_discount-to-carts" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="608.409" x2="616.409" y1="535.5" y2="527.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="608.409" x2="616.409" y1="535.5" y2="543.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="608.409" x2="616.409" y1="535.5" y2="535.5"/><!--MD5=[5eff77619a0bc6cf02977ebed4f79d8a]
+link stripe to transactions--><path codeLine="95" d="M1175.38,554.622 C1151.08,578.921 1106.66,623.345 1069.19,660.806 " fill="none" id="stripe-transactions" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d1b8272f5cc8414f5b99be6f150f7e5c]
+link categories to sub_categories--><path codeLine="179" d="M104.2578,55 C113.079,55 121.9,55 130.722,55 " fill="none" id="categories-to-sub_categories" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="130.823" x2="138.823" y1="55" y2="47"/><line style="stroke:#A80036;stroke-width:1.0;" x1="130.823" x2="138.823" y1="55" y2="63"/><line style="stroke:#A80036;stroke-width:1.0;" x1="130.823" x2="138.823" y1="55" y2="55"/><!--MD5=[a1404c30db26f2342b5610efbe1ae8d3]
+link sub_categories to products--><path codeLine="180" d="M213.5,103.274 C213.5,129.774 213.5,163.72 213.5,195.115 " fill="none" id="sub_categories-to-products" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="213.5" x2="221.5" y1="195.463" y2="203.463"/><line style="stroke:#A80036;stroke-width:1.0;" x1="213.5" x2="205.5" y1="195.463" y2="203.463"/><line style="stroke:#A80036;stroke-width:1.0;" x1="213.5" x2="213.5" y1="195.463" y2="203.463"/><!--MD5=[2e04dbbb78910cda89e79df7e2e2bb1f]
+link brands to products--><path codeLine="181" d="M113.512,286.5 C122.483,286.5 131.454,286.5 140.425,286.5 " fill="none" id="brands-to-products" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="140.664" x2="148.664" y1="286.5" y2="278.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="140.664" x2="148.664" y1="286.5" y2="294.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="140.664" x2="148.664" y1="286.5" y2="286.5"/><!--MD5=[eb6779809d4bb72777f6921956ac7dba]
+link products to reviews--><path codeLine="182" d="M213.5,369.747 C213.5,410.112 213.5,457.118 213.5,490.566 " fill="none" id="products-to-reviews" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="213.5" x2="221.5" y1="490.766" y2="498.766"/><line style="stroke:#A80036;stroke-width:1.0;" x1="213.5" x2="205.5" y1="490.766" y2="498.766"/><line style="stroke:#A80036;stroke-width:1.0;" x1="213.5" x2="213.5" y1="490.766" y2="498.766"/><!--MD5=[9d8d189305fb7377cf2fc1f3d891d814]
+link products to variants--><path codeLine="183" d="M278.293,286.5 C287.081,286.5 295.869,286.5 304.657,286.5 " fill="none" id="products-to-variants" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="304.727" x2="312.727" y1="286.5" y2="278.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="304.727" x2="312.727" y1="286.5" y2="294.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="304.727" x2="312.727" y1="286.5" y2="286.5"/><!--MD5=[6cb89ee878b3ecf653110c918f09b988]
+link variants to discounts--><path codeLine="184" d="M456.031,286.5 C464.879,286.5 473.727,286.5 482.574,286.5 " fill="none" id="variants-to-discounts" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="482.7" x2="490.7" y1="286.5" y2="278.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="482.7" x2="490.7" y1="286.5" y2="294.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="482.7" x2="490.7" y1="286.5" y2="286.5"/><!--MD5=[f89907d0dac02610361ea86bc640339f]
+link event_products to variants--><path codeLine="185" d="M384.5,97.03 C384.5,113.607 384.5,133.744 384.5,154.607 " fill="none" id="event_products-to-variants" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="384.5" x2="392.5" y1="154.633" y2="162.633"/><line style="stroke:#A80036;stroke-width:1.0;" x1="384.5" x2="376.5" y1="154.633" y2="162.633"/><line style="stroke:#A80036;stroke-width:1.0;" x1="384.5" x2="384.5" y1="154.633" y2="162.633"/><!--MD5=[0f8e2c967e91a2b1a88c771c5531714d]
+reverse link discounts to order_discount--><path codeLine="194" d="M622.293,286.5 C645.605,286.5 668.917,286.5 692.229,286.5 " fill="none" id="discounts-backto-order_discount" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="622.047" x2="614.047" y1="286.5" y2="294.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="622.047" x2="614.047" y1="286.5" y2="278.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="622.047" x2="614.047" y1="286.5" y2="286.5"/><!--MD5=[25a3933ad4e318fa3765703994c76335]
+reverse link discounts to line_items_discount--><path codeLine="195" d="M542.669,342.689 C533.75,392.756 520.939,464.675 513.806,504.712 " fill="none" id="discounts-backto-line_items_discount" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="542.7171" x2="536.244" y1="342.416" y2="334.54"/><line style="stroke:#A80036;stroke-width:1.0;" x1="542.7171" x2="551.996" y1="342.416" y2="334.54"/><line style="stroke:#A80036;stroke-width:1.0;" x1="542.7171" x2="544.12" y1="342.416" y2="334.54"/><!--MD5=[9b00d6477aba1805618a32dcfa0c8b7c]
+@startuml
+object orders {
+    order_id [P]
+    wave_id [F]
+    user_id [F]
+    order_discount_id [F]
+    order_amount
+    shipping_type 
+    status 
+    order_date
+    order_refund_status
+    }
+
+object line_items{
+    line_items_id [P]
+    order_id [F]
+    product_id [F]
+    variant_id [F]
+    line_item_discount_id [F]
+    tax_id [F]
+    line_items_quantity
+    line_items_total
+    }
+
+object tax{
+    tax_id [P]
+    province [F]
+    GST/HST
+    PST
+    total_tax_rate
+    }
+
+object refunds{
+    refunds_id [P]
+    line_items_id [F]
+    refunds_status 
+    refunds_date
+    }
+
+
+object transactions{
+    transactions_id [P]
+    order_id [F]
+    refunds_id [F]
+    transaction_time
+    transactions_type
+    transactions_amount
+    payment_confirmation_id [F]
+    transactions_status 
+      (complete/pending/declined)
+    }
+
+
+object carts{
+    cart_id [P]
+    user_id [F]
+    product_id [F]
+    varient_id [F]
+    quantity
+    line_item_discount_id 
+    }
+
+
+object delivery_method{
+    delivery_method_id [P]
+    delivery_method
+    }
+
+object line_items_discount{
+    line_item_discount_id [P]
+    Line_items_id
+    discount_id [F]
+    }
+
+object order_discount{
+    order_discount_id [P]
+    order_id [F]
+    discount_id [F]
+    }
+
+object stripe{
+    payment_confirmation_id [P]
+    }
+    
+
+order_discount - -{ orders
+carts - orders
+orders - -{ line_items
+line_items }- refunds
+orders - transactions
+orders - delivery_method
+refunds - transactions
+tax - line_items
+line_items_discount -{ line_items
+line_items_discount -{ carts
+stripe - - transactions
+
+
+object products{
+    product_id [P]
+    brand_id [F]
+    supplier_id [F]
+    category_id [F]
+    vendor_product_id [F]
+    product_name
+    product_description
+    options
+    picture
+    rating
+    related
+    note
+    }
+
+object brands{
+    brand_id [P]
+    product_id [F]
+    brand_name
+    }
+
+object reviews{
+    review_id [P]
+    product_id [F]
+    customer_ratings
+    review_text
+    }
+
+object categories{
+    category_id [P]
+    category_name
+    }
+
+object sub_categories{
+    sub_category_id [P]
+    category_id [F]
+    product_id [F]
+    sub_category_name
+    sub_category_image
+    sub_category_description
+    }
+
+object variants{
+    variant_id [P]
+    product_id [F]
+    variant_description
+    store_name
+    SKU
+    size
+    color
+    weight
+    weight_unit
+    unit_price
+    discount_id
+    taxable_or_not
+    dimensions_length
+    dimensions_length_unit
+    dimensions_width
+    dimensions_width_unit
+    dimensions_height
+    dimensions_heighe_unit
+    units_in_stock
+    }
+
+object discounts{
+    discount_id [P]
+    variant_id [F]
+    events_id [F]
+    discount_type
+    discount_amount
+    discount_description
+    }
+
+object event_products{
+    event_product_id
+    break_out_quantity
+    discount_id
+    event_id
+    variant_id
+    }
+
+categories -{ sub_categories
+sub_categories - -{ products 
+brands -{ products
+products - -{ reviews
+products -{ variants
+variants -{ discounts
+event_products - -{ variants
+
+
+
+
+
+
+
+
+discounts }- order_discount
+discounts }- line_items_discount
+@enduml
+
+PlantUML version 1.2021.16beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
