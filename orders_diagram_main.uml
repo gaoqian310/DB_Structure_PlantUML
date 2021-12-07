@@ -94,4 +94,99 @@ tax - line_items
 line_items_discount -{ line_items
 line_items_discount -{ carts
 stripe -- transactions
+
+
+object products{
+    product_id [P]
+    brand_id [F]
+    supplier_id [F]
+    category_id [F]
+    vendor_product_id [F]
+    product_name
+    product_description
+    options
+    picture
+    rating
+    related
+    note
+    }
+
+object brands{
+    brand_id [P]
+    product_id [F]
+    brand_name
+    }
+
+object reviews{
+    review_id [P]
+    product_id [F]
+    customer_ratings
+    review_text
+    }
+
+object categories{
+    category_id [P]
+    category_name
+    }
+
+object sub_categories{
+    sub_category_id [P]
+    category_id [F]
+    product_id [F]
+    sub_category_name
+    sub_category_image
+    sub_category_description
+    }
+
+object variants{
+    variant_id [P]
+    product_id [F]
+    variant_description
+    store_name
+    SKU
+    size
+    color
+    weight
+    weight_unit
+    unit_price
+    discount_id
+    taxable_or_not
+    dimensions_length
+    dimensions_length_unit
+    dimensions_width
+    dimensions_width_unit
+    dimensions_height
+    dimensions_heighe_unit
+    units_in_stock
+    }
+
+object discounts{
+    discount_id [P]
+    variant_id [F]
+    events_id [F]
+    discount_type
+    discount_amount
+    discount_description
+    }
+
+object event_products{
+    event_product_id
+    break_out_quantity
+    discount_id
+    event_id
+    variant_id
+    }
+
+categories -{ sub_categories
+sub_categories --{ products 
+brands -{ products
+products --{ reviews
+products -{ variants
+variants -{ discounts
+event_products --{ variants
+
+
+
+discounts }- order_discount
+discounts }- line_items_discount
 @enduml
