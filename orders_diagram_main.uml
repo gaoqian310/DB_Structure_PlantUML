@@ -5,7 +5,8 @@ object orders {
     user_id [F]
     order_discount_id [F]
     order_amount
-    shipping_type 
+    shipping_type
+    delivery_cost_id
     status 
     order_date
     order_refund_status
@@ -54,10 +55,6 @@ object transactions{
 object carts{
     cart_id [P]
     user_id [F]
-    product_id [F]
-    varient_id [F]
-    quantity
-    line_item_discount_id 
     }
 
 
@@ -81,17 +78,35 @@ object order_discount{
 object stripe{
     payment_confirmation_id [P]
     }
-    
+
+object cart_line_items{
+    cart_line_items_id [P]
+    cart_id [F]
+    product_id [F]
+    variant_id [F]
+    cart_line_item_discount_id [F]
+    cart_line_items_quantity
+    cart_line_items_total
+    }
+
+object delivery_fee{
+    delivery_cost_id
+    **out of Calgary with UPS / CanadaPost**
+    }    
+
+
 
 order_discount --{ orders
 carts - orders
 orders --{ line_items
 line_items }- refunds
 orders - transactions
-orders - delivery_method
+orders -up- delivery_method
 refunds - transactions
-tax - line_items
+tax -up- line_items
 line_items_discount -{ line_items
-line_items_discount -{ carts
-stripe -- transactions
+line_items_discount -up- cart_line_items
+transactions -right- stripe
+cart_line_items }-right- carts
+orders -right- delivery_fee
 @enduml
