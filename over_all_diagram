@@ -392,10 +392,6 @@ object events{
     event_booth_plan
     event_logo
     event_type
-    start_date
-    start_time
-    end_date
-    end_time
     event_capabilities
     }
 
@@ -409,11 +405,19 @@ object event_address{
     event_postal_code
     }
 
+object event_schedule{
+    event_schedule_id
+    event_id
+    event_start_date
+    event_end_date
+    }
+
 vendor_profiles -{ vendor_locations
 vendor_profiles -{ vendor_booth
 vendor_locations --{ vendor_booth
 events --{ vendor_booth
 events --{ event_address
+events }-- event_schedule
 
 
 
