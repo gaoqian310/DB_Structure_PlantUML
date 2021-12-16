@@ -39,15 +39,15 @@ object notifications_settings{
     }
 
 
-object notifications_tamplates{
-    tamplate_id [P]
-    tamplate_content
+object notifications_templates{
+    template_id [P]
+    template_content
     }
 
 object notifications_queue{
     queue_id [P]
     notification_id [F]
-    tamplate_content [F]
+    template_content [F]
     received_at
     channel
     }
@@ -103,7 +103,7 @@ object roles{
 
 customer_profiles -- notifications_settings
 notifications_settings -right- notifications_queue
-notifications_queue -right- notifications_tamplates
+notifications_queue -right- notifications_templates
 customer_profiles -left-{ addresses
 users --- customer_profiles
 users --- picker_profiles
