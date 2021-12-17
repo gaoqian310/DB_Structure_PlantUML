@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1210px" preserveAspectRatio="none" style="width:3408px;height:1210px;background:#FFFFFF;" version="1.1" viewBox="0 0 3408 1210" width="3408px" zoomAndPan="magnify"><defs><filter height="300%" id="fo3xrssuiari8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="130.7344" style="stroke:#A80036;stroke-width:1.5;" width="124" x="1472" y="342"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="41" x="1513.5" y="355.1387">orders</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1473" x2="1595" y1="359.9688" y2="359.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="1478" y="373.251">order_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="60" x="1478" y="384.8916">wave_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="1478" y="396.5322">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="112" x="1478" y="408.1729">order_discount_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="77" x="1478" y="419.8135">order_amount</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="75" x="1478" y="431.4541">shipping_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="32" x="1478" y="443.0947">status</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="59" x="1478" y="454.7354">order_date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="107" x="1478" y="466.376">order_refund_status</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="145" x="1355.5" y="597"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="1398" y="610.1387">line_items</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1356.5" x2="1499.5" y1="614.9688" y2="614.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="1361.5" y="628.251">line_items_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="1361.5" y="639.8916">order_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="1361.5" y="651.5322">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="1361.5" y="663.1729">variant_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="133" x="1361.5" y="674.8135">line_item_discount_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="49" x="1361.5" y="686.4541">tax_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="105" x="1361.5" y="698.0947">line_items_quantity</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="85" x="1361.5" y="709.7354">line_items_total</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="84.1719" style="stroke:#A80036;stroke-width:1.5;" width="86" x="1234" y="614.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="18" x="1268" y="627.6387">tax</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1235" x2="1319" y1="632.4688" y2="632.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="49" x="1240" y="645.751">tax_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="1240" y="657.3916">province [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="47" x="1240" y="669.0322">GST/HST</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="20" x="1240" y="680.6729">PST</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="1240" y="692.3135">total_tax_rate</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="99" x="1535.5" y="620"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="1562" y="633.1387">refunds</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1536.5" x2="1633.5" y1="637.9688" y2="637.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="1541.5" y="651.251">refunds_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="1541.5" y="662.8916">line_items_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="1541.5" y="674.5322">refunds_status</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="1541.5" y="686.1729">refunds_date</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="130.7344" style="stroke:#A80036;stroke-width:1.5;" width="170" x="1670" y="591"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="1718.5" y="604.1387">transactions</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1671" x2="1839" y1="608.9688" y2="608.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="98" x="1676" y="622.251">transactions_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="1676" y="633.8916">order_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="1676" y="645.5322">refunds_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="91" x="1676" y="657.1729">transaction_time</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="95" x="1676" y="668.8135">transactions_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="114" x="1676" y="680.4541">transactions_amount</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="156" x="1676" y="692.0947">payment_confirmation_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="103" x="1676" y="703.7354">transactions_status</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="158" x="1676" y="715.376">(complete/pending/declined)</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="128" x="1309" y="359.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="1358" y="372.6387">carts</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1310" x2="1436" y1="377.4688" y2="377.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="53" x="1315" y="390.751">cart_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="1315" y="402.3916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="1315" y="414.0322">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="1315" y="425.6729">varient_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="45" x="1315" y="437.3135">quantity</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="116" x="1315" y="448.9541">line_item_discount_id</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="135" x="1806.5" y="383"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="1823.5" y="396.1387">delivery_method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1807.5" x2="1940.5" y1="400.9688" y2="400.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="123" x="1812.5" y="414.251">delivery_method_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="91" x="1812.5" y="425.8916">delivery_method</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="145" x="1128.5" y="377"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="1142.5" y="390.1387">line_items_discount</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1129.5" x2="1272.5" y1="394.9688" y2="394.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="133" x="1134.5" y="408.251">line_item_discount_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="1134.5" y="419.8916">Line_items_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="1134.5" y="431.5322">discount_id [F]</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="124" x="1322" y="151"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="1338.5" y="164.1387">order_discount</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1323" x2="1445" y1="168.9688" y2="168.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="112" x="1328" y="182.251">order_discount_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="1328" y="193.8916">order_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="1328" y="205.5322">discount_id [F]</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="168" x="1977" y="388.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="2043.5" y="401.6387">stripe</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1978" x2="2144" y1="406.4688" y2="406.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="156" x="1983" y="419.751">payment_confirmation_id [P]</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="130.7344" style="stroke:#A80036;stroke-width:1.5;" width="90" x="2295" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="34" x="2323" y="129.1387">users</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2296" x2="2384" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="2301" y="147.251">user_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="60" x="2301" y="158.8916">user_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="2301" y="170.5322">user_password</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="57" x="2301" y="182.1729">first_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="56" x="2301" y="193.8135">last_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="35" x="2301" y="205.4541">phone</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="2301" y="217.0947">mobile</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="31" x="2301" y="228.7354">email</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="2301" y="240.376">date_entered</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="123" x="2355.5" y="620"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="109" x="2362.5" y="633.1387">customer_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2356.5" x2="2477.5" y1="637.9688" y2="637.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="2361.5" y="651.251">customer_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="2361.5" y="662.8916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="39" x="2361.5" y="674.5322">gender</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="2361.5" y="686.1729">note</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="107.4531" style="stroke:#A80036;stroke-width:1.5;" width="98" x="2291" y="881"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="2307.5" y="894.1387">addresses</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2292" x2="2388" y1="898.9688" y2="898.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="86" x="2297" y="912.251">addresses_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="2297" y="923.8916">customer_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="2297" y="935.5322">addresses_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="2297" y="947.1729">street_address</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="19" x="2297" y="958.8135">city</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="47" x="2297" y="970.4541">province</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="2297" y="982.0947">post_code</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="140" x="2424" y="886.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="126" x="2431" y="899.6387">notifications_settings</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2425" x2="2563" y1="904.4688" y2="904.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="2430" y="917.751">notification_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="2430" y="929.3916">customer_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="2430" y="941.0322">type (sms/email)</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="91" x="2430" y="952.6729">channel_content</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="86" x="2430" y="964.3135">notification(y/n)</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="114" x="2430" y="975.9541">promotional_content</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="137" x="2425.5" y="1130"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="2432.5" y="1143.1387">notifications_content</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2426.5" x2="2561.5" y1="1147.9688" y2="1147.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="2431.5" y="1161.251">content_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="2431.5" y="1172.8916">notification_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="125" x="2431.5" y="1184.5322">content_of_notification</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="104" x="2552" y="620"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="2559" y="633.1387">picker_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2553" x2="2655" y1="637.9688" y2="637.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="65" x="2558" y="651.251">picker_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="2558" y="662.8916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="89" x="2558" y="674.5322">can_lift_up_to_lb</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="2558" y="686.1729">note</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="127" x="2055.5" y="608.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="2075" y="621.6387">driver_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2056.5" x2="2181.5" y1="626.4688" y2="626.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="63" x="2061.5" y="639.751">driver_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="2061.5" y="651.3916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="69" x="2061.5" y="663.0322">license_class</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="115" x="2061.5" y="674.6729">airbrake_certification</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="89" x="2061.5" y="686.3135">can_lift_up_to_lb</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="2061.5" y="697.9541">note</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="102" x="2218" y="626"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="2225" y="639.1387">admin_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2219" x2="2319" y1="643.9688" y2="643.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="2224" y="657.251">admin_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="2224" y="668.8916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="2224" y="680.5322">note</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="177.2969" style="stroke:#A80036;stroke-width:1.5;" width="143" x="370.5" y="568"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="394.5" y="581.1387">vendor_profiles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="371.5" x2="512.5" y1="585.9688" y2="585.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="376.5" y="599.251">vendor_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="376.5" y="610.8916">user_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="75" x="376.5" y="622.5322">vendor_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="131" x="376.5" y="634.1729">vendor_mailing_address</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="121" x="376.5" y="645.8135">vendor_contact_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="124" x="376.5" y="657.4541">vendor_contact_phone</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="120" x="376.5" y="669.0947">vendor_contact_email</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="376.5" y="680.7354">gst_number</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="86" x="376.5" y="692.376">vendor_logo_url</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="119" x="376.5" y="704.0166">business_license_num</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="103" x="376.5" y="715.6572">vendor_website_url</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="118" x="376.5" y="727.2979">vendor_business_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="376.5" y="738.9385">vendor_notes</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="85" x="2297.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="2304.5" y="20.1387">users_roles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2298.5" x2="2381.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="41" x="2303.5" y="38.251">roles_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="2303.5" y="49.8916">user_id</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="70" x="2418" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="2437.5" y="20.1387">roles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2419" x2="2487" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="36" x="2424" y="38.251">role_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="58" x="2424" y="49.8916">role_name</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="165.6563" style="stroke:#A80036;stroke-width:1.5;" width="129" x="839.5" y="851.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="877" y="864.6387">products</text><line style="stroke:#A80036;stroke-width:1.5;" x1="840.5" x2="967.5" y1="869.4688" y2="869.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="845.5" y="882.751">product_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="845.5" y="894.3916">brand_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="75" x="845.5" y="906.0322">supplier_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="80" x="845.5" y="917.6729">category_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="117" x="845.5" y="929.3135">vendor_product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="79" x="845.5" y="940.9541">product_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="107" x="845.5" y="952.5947">product_description</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="845.5" y="964.2354">options</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="845.5" y="975.876">picture</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="32" x="845.5" y="987.5166">rating</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="39" x="845.5" y="999.1572">related</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="845.5" y="1010.7979">note</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="86" x="718" y="904"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="740" y="917.1387">brands</text><line style="stroke:#A80036;stroke-width:1.5;" x1="719" x2="803" y1="921.9688" y2="921.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="724" y="935.251">brand_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="724" y="946.8916">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="69" x="724" y="958.5322">brand_name</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="105" x="851.5" y="1124"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="880" y="1137.1387">reviews</text><line style="stroke:#A80036;stroke-width:1.5;" x1="852.5" x2="955.5" y1="1141.9688" y2="1141.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="857.5" y="1155.251">review_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="857.5" y="1166.8916">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="93" x="857.5" y="1178.5322">customer_ratings</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="857.5" y="1190.1729">review_text</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="97" x="740.5" y="632"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="756.5" y="645.1387">categories</text><line style="stroke:#A80036;stroke-width:1.5;" x1="741.5" x2="836.5" y1="649.9688" y2="649.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="80" x="746.5" y="663.251">category_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="85" x="746.5" y="674.8916">category_name</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="149" x="872.5" y="608.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="93" x="900.5" y="621.6387">sub_categories</text><line style="stroke:#A80036;stroke-width:1.5;" x1="873.5" x2="1020.5" y1="626.4688" y2="626.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="104" x="878.5" y="639.751">sub_category_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="80" x="878.5" y="651.3916">category_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="878.5" y="663.0322">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="109" x="878.5" y="674.6729">sub_category_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="112" x="878.5" y="686.3135">sub_category_image</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="137" x="878.5" y="697.9541">sub_category_description</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="258.7813" style="stroke:#A80036;stroke-width:1.5;" width="143" x="1003.5" y="805"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="1051.5" y="818.1387">variants</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1004.5" x2="1145.5" y1="822.9688" y2="822.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="1009.5" y="836.251">variant_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="1009.5" y="847.8916">product_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="103" x="1009.5" y="859.5322">variant_description</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="64" x="1009.5" y="871.1729">store_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="22" x="1009.5" y="882.8135">SKU</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="21" x="1009.5" y="894.4541">size</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="27" x="1009.5" y="906.0947">color</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="36" x="1009.5" y="917.7354">weight</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="1009.5" y="929.376">weight_unit</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="53" x="1009.5" y="941.0166">unit_price</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="27" x="1009.5" y="952.6572">msrp</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="1009.5" y="964.2979">discount_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="80" x="1009.5" y="975.9385">taxable_or_not</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="102" x="1009.5" y="987.5791">dimensions_length</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="128" x="1009.5" y="999.2197">dimensions_length_unit</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="96" x="1009.5" y="1010.8604">dimensions_width</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="122" x="1009.5" y="1022.501">dimensions_width_unit</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="102" x="1009.5" y="1034.1416">dimensions_height</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="131" x="1009.5" y="1045.7822">dimensions_heighe_unit</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="74" x="1009.5" y="1057.4229">units_in_stock</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="123" x="1076.5" y="133.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="1109" y="146.6387">discounts</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1077.5" x2="1198.5" y1="151.4688" y2="151.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="78" x="1082.5" y="164.751">discount_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="1082.5" y="176.3916">variant_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="68" x="1082.5" y="188.0322">events_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="75" x="1082.5" y="199.6729">discount_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="1082.5" y="211.3135">discount_amount</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="111" x="1082.5" y="222.9541">discount_description</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="84.1719" style="stroke:#A80036;stroke-width:1.5;" width="116" x="7" y="614.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="94" x="18" y="627.6387">event_products</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="122" y1="632.4688" y2="632.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="93" x="13" y="645.751">event_product_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="104" x="13" y="657.3916">break_out_quantity</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="13" y="669.0322">discount_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="46" x="13" y="680.6729">event_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="53" x="13" y="692.3135">variant_id</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="157" x="2393.5" y="348"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="143" x="2400.5" y="361.1387">staff_regular_availability</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2394.5" x2="2549.5" y1="365.9688" y2="365.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="100" x="2399.5" y="379.251">user_ra_interval_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="2399.5" y="390.8916">user_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="69" x="2399.5" y="402.5322">day_of_week</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="56" x="2399.5" y="414.1729">interval_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="131" x="2399.5" y="425.8135">interval_beginning_time</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="97" x="2399.5" y="437.4541">interval_end_time</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="59" x="2399.5" y="449.0947">exceptions</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="2399.5" y="460.7354">note</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="157" x="2657.5" y="377"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="143" x="2664.5" y="390.1387">staff_holiday_availability</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2658.5" x2="2813.5" y1="394.9688" y2="394.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="57" x="2663.5" y="408.251">user_ha_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="2663.5" y="419.8916">user_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="2663.5" y="431.5322">note</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="140" x="1631" y="359.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="126" x="1638" y="372.6387">staff_planned_leaves</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1632" x2="1770" y1="377.4688" y2="377.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="53" x="1637" y="390.751">user_pl_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="1637" y="402.3916">user_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="45" x="1637" y="414.0322">leave_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="85" x="1637" y="425.6729">beginning_date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="51" x="1637" y="437.3135">end_date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="1637" y="448.9541">note</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="137" x="2849.5" y="377"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="2856.5" y="390.1387">wave_available_staff</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2850.5" x2="2985.5" y1="394.9688" y2="394.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="2855.5" y="408.251">wave_user_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="43" x="2855.5" y="419.8916">wave_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="38" x="2855.5" y="431.5322">user_id</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="161" x="3233.5" y="377"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="147" x="3240.5" y="390.1387">wave_available_vehicles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3234.5" x2="3393.5" y1="394.9688" y2="394.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="3239.5" y="408.251">wave_vehicle_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="43" x="3239.5" y="419.8916">wave_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="54" x="3239.5" y="431.5322">vehicle_id</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="200.5781" style="stroke:#A80036;stroke-width:1.5;" width="176" x="3022" y="307"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="3085" y="320.1387">vehicles</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3023" x2="3197" y1="324.9688" y2="324.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="54" x="3028" y="338.251">vehicle_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="68" x="3028" y="349.8916">vehicle_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="124" x="3028" y="361.5322">max_freight_weight_kg</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="134" x="3028" y="373.1729">max_freight_volume_m3</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="75" x="3028" y="384.8135">vehicle_make</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="79" x="3028" y="396.4541">vehicle_model</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="3028" y="408.0947">vehicle_class</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="116" x="3028" y="419.7354">vehicle_licence_plate</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="164" x="3028" y="431.376">vehicle_identification_number</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="130" x="3028" y="443.0166">registered_owner_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="93" x="3028" y="454.6572">vehicle_is_leased</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="69" x="3028" y="466.2979">lease_dealer</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="3028" y="477.9385">leased_from</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="65" x="3028" y="489.5791">leased_until</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="25" x="3028" y="501.2197">note</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="130" x="3051" y="151"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="3075.5" y="164.1387">wave_timings</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3052" x2="3180" y1="168.9688" y2="168.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="43" x="3057" y="182.251">wave_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="118" x="3057" y="193.8916">wave_beginning_time</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="3057" y="205.5322">wave_sutoff_time</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="156" x="549" y="597"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="103" x="575.5" y="610.1387">vendor_locations</text><line style="stroke:#A80036;stroke-width:1.5;" x1="550" x2="704" y1="614.9688" y2="614.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="119" x="555" y="628.251">vendor_location_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="555" y="639.8916">vendor_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="116" x="555" y="651.5322">vendor_location_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="122" x="555" y="663.1729">vendor_street_number</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="111" x="555" y="674.8135">vendor_street_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="127" x="555" y="686.4541">vendor_street_direction</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="555" y="698.0947">vendor_city</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="144" x="555" y="709.7354">vendor_street_postal_code</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="84.1719" style="stroke:#A80036;stroke-width:1.5;" width="135" x="374.5" y="892.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="400" y="905.6387">vendor_booth</text><line style="stroke:#A80036;stroke-width:1.5;" x1="375.5" x2="508.5" y1="910.4688" y2="910.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="107" x="380.5" y="923.751">vendor_booth_id [P]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="63" x="380.5" y="935.3916">event_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="380.5" y="947.0322">vendor_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="119" x="380.5" y="958.6729">vendor_location_id [F]</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="123" x="380.5" y="970.3135">vendor_booth_number</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="142.375" style="stroke:#A80036;stroke-width:1.5;" width="177" x="158.5" y="585.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="41" x="226.5" y="598.6387">events</text><line style="stroke:#A80036;stroke-width:1.5;" x1="159.5" x2="334.5" y1="603.4688" y2="603.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="46" x="164.5" y="616.751">event_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="68" x="164.5" y="628.3916">event_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="114" x="164.5" y="640.0322">event_contact_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="165" x="164.5" y="651.6729">event_contact_phone_number</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="164.5" y="663.3135">event_email</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="96" x="164.5" y="674.9541">event_website_url</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="97" x="164.5" y="686.5947">event_booth_plan</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="60" x="164.5" y="698.2354">event_logo</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="60" x="164.5" y="709.876">event_type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="98" x="164.5" y="721.5166">event_capabilities</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="107.4531" style="stroke:#A80036;stroke-width:1.5;" width="132" x="194" y="881"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="215" y="894.1387">event_address</text><line style="stroke:#A80036;stroke-width:1.5;" x1="195" x2="325" y1="898.9688" y2="898.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="93" x="200" y="912.251">event_address_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="46" x="200" y="923.8916">event_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="115" x="200" y="935.5322">event_street_number</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="104" x="200" y="947.1729">event_street_name</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="120" x="200" y="958.8135">event_street_direction</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="55" x="200" y="970.4541">event_city</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="101" x="200" y="982.0947">event_postal_code</text><rect fill="#FEFECE" filter="url(#fo3xrssuiari8)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="112" x="47" y="898"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="55.5" y="911.1387">event_schedule</text><line style="stroke:#A80036;stroke-width:1.5;" x1="48" x2="158" y1="915.9688" y2="915.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="100" x="53" y="929.251">event_schedule_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="46" x="53" y="940.8916">event_id</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="53" y="952.5322">event_start_date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="53" y="964.1729">event_end_date</text><!--MD5=[34839f3ab3b8732ec3bac2c680c42ddf]
+link order_discount to orders--><path codeLine="85" d="M1403.92,212.245 C1424.75,243.36 1458.23,293.349 1486,334.825 " fill="none" id="order_discount-to-orders" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1486.1366" x2="1497.2358" y1="335.0222" y2="341.668"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1486.1366" x2="1483.9442" y1="335.0222" y2="341.668"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1486.1366" x2="1490.59" y1="335.0222" y2="341.668"/><!--MD5=[2f4dbe3de66ed9070ca67241faecf33d]
+link carts to orders--><path codeLine="86" d="M1437.15,407.5 C1448.75,407.5 1460.35,407.5 1471.95,407.5 " fill="none" id="carts-orders" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[540377f8778e530fc5d86c14f9ba72f7]
+link orders to line_items--><path codeLine="87" d="M1506.29,473.074 C1490.94,508.837 1471.9,553.211 1456.44,589.24 " fill="none" id="orders-to-line_items" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1456.3424" x2="1460.5427" y1="589.4433" y2="596.796"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1456.3424" x2="1445.8373" y1="589.4433" y2="596.796"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1456.3424" x2="1453.19" y1="589.4433" y2="596.796"/><!--MD5=[7cf65c7945e4b18638b1f3a04a691af5]
+reverse link line_items to refunds--><path codeLine="88" d="M1508.78,656.5 C1517.61,656.5 1526.43,656.5 1535.26,656.5 " fill="none" id="line_items-backto-refunds" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1508.67" x2="1500.67" y1="656.5" y2="664.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1508.67" x2="1500.67" y1="656.5" y2="648.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1508.67" x2="1500.67" y1="656.5" y2="656.5"/><!--MD5=[f9b7a97b3d6a875c39c020d86f9eb75c]
+link orders to transactions--><path codeLine="89" d="M1583.9,473.198 C1593.37,484.942 1603.34,496.96 1613,508 C1637.34,535.824 1665.34,565.384 1690.01,590.678 " fill="none" id="orders-transactions" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a5dcad50fa5b061ba55aea11453d8ac6]
+link orders to delivery_method--><path codeLine="90" d="M1565.57,341.851 C1581.31,316.776 1602.95,290.892 1630.5,277 C1686.06,248.985 1714.48,249.928 1770.5,277 C1815.93,298.955 1847.52,351.614 1863.02,382.917 " fill="none" id="orders-delivery_method" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0b9d1d0030388e67ed76b54940a43c29]
+link refunds to transactions--><path codeLine="91" d="M1634.8,656.5 C1646.39,656.5 1657.97,656.5 1669.55,656.5 " fill="none" id="refunds-transactions" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a88e5061fe7d72a87d1eafbb80b6bf1a]
+link tax to line_items--><path codeLine="92" d="M1320.06,656.5 C1331.86,656.5 1343.67,656.5 1355.48,656.5 " fill="none" id="tax-line_items" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f40cb529cbfaf6345b1d425c84bfdf0a]
+link line_items_discount to line_items--><path codeLine="93" d="M1227.68,438.199 C1245.53,458.026 1269.6,484.648 1291,508 C1315.92,535.191 1343.58,565.032 1367.48,590.716 " fill="none" id="line_items_discount-to-line_items" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1367.7025" x2="1379.0094" y1="590.9596" y2="596.809"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1367.7025" x2="1367.3106" y1="590.9596" y2="596.809"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1367.7025" x2="1373.16" y1="590.9596" y2="596.809"/><!--MD5=[bf6f05175817591759b21d4858c1e843]
+link line_items_discount to carts--><path codeLine="94" d="M1273.56,407.5 C1282.68,407.5 1291.79,407.5 1300.9,407.5 " fill="none" id="line_items_discount-to-carts" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1300.91" x2="1308.91" y1="407.5" y2="399.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1300.91" x2="1308.91" y1="407.5" y2="415.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1300.91" x2="1308.91" y1="407.5" y2="407.5"/><!--MD5=[5eff77619a0bc6cf02977ebed4f79d8a]
+link stripe to transactions--><path codeLine="95" d="M2044.05,426.572 C2024.39,447.163 1990.61,481.401 1959,508 C1921.55,539.515 1877.82,571.687 1840.47,597.909 " fill="none" id="stripe-transactions" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[24cda88595a6a49d70fd5daa8cacd3c6]
+link customer_profiles to notifications_settings--><path codeLine="194" d="M2426.91,693.017 C2440.64,742.227 2465.48,831.269 2480.78,886.105 " fill="none" id="customer_profiles-notifications_settings" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[953ce153f7cba82035c57a07a67d6bad]
+link notifications_settings to notifications_content--><path codeLine="195" d="M2494,982.731 C2494,1027.143 2494,1092.256 2494,1129.8096 " fill="none" id="notifications_settings-notifications_content" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[569611bb1bc4dd4a1838f8e6a8989178]
+link customer_profiles to addresses--><path codeLine="196" d="M2407.09,693.017 C2394.41,738.464 2372.26,817.881 2356.89,872.956 " fill="none" id="customer_profiles-to-addresses" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2356.8315" x2="2362.3853" y1="873.1927" y2="880.898"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2356.8315" x2="2346.9747" y1="873.1927" y2="880.898"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2356.8315" x2="2354.68" y1="873.1927" y2="880.898"/><!--MD5=[f55f9ef173ac0b9de569bea65f80c2a7]
+link users to customer_profiles--><path codeLine="197" d="M2344.07,247.19 C2348.95,313.206 2358.71,418.401 2376,508 C2383.48,546.754 2396.08,590.18 2405.34,619.817 " fill="none" id="users-customer_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3ca6ff7eaeb0afea57df1105fc573b96]
+link users to picker_profiles--><path codeLine="198" d="M2385.06,193.46 C2438.42,209.008 2525.41,242.974 2568,307 C2632.85,404.491 2620.53,552.418 2610.42,619.806 " fill="none" id="users-picker_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c01c1a1aa1dd7d5b5ef785baf0f70c6f]
+link users to driver_profiles--><path codeLine="199" d="M2307.24,247.235 C2297.68,266.41 2287.3,287.494 2278,307 C2226.9,414.145 2169.76,541.307 2139.84,608.479 " fill="none" id="users-driver_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[22440d20bcdaed0af5387131fac61c80]
+link users to admin_profiles--><path codeLine="200" d="M2325.48,247.259 C2321.45,266.434 2317.29,287.513 2314,307 C2294.21,424.303 2278.46,565.107 2272.08,625.549 " fill="none" id="users-admin_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[24057c6f157cfc775705f1227a1f0206]
+link users to vendor_profiles--><path codeLine="201" d="M2294.86,185.13 C2101.41,196.68 1341.71,245.155 1111,307 C837.964,380.191 764.322,408.418 531,568 C525.098,572.037 519.239,576.487 513.509,581.176 " fill="none" id="users-vendor_profiles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1b4379072089a660803adbb05cc8adc9]
+link users_roles to users--><path codeLine="202" d="M2340,56.28 C2340,72.46 2340,94.7 2340,115.9 " fill="none" id="users_roles-users" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b9cbd6be50dba5b5358cc772b5997021]
+link users_roles to roles--><path codeLine="203" d="M2382.82,31.5 C2394.51,31.5 2406.21,31.5 2417.91,31.5 " fill="none" id="users_roles-roles" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d1b8272f5cc8414f5b99be6f150f7e5c]
+link categories to sub_categories--><path codeLine="287" d="M837.758,656.5 C846.579,656.5 855.4,656.5 864.222,656.5 " fill="none" id="categories-to-sub_categories" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="864.323" x2="872.323" y1="656.5" y2="648.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="864.323" x2="872.323" y1="656.5" y2="664.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="864.323" x2="872.323" y1="656.5" y2="656.5"/><!--MD5=[a1404c30db26f2342b5610efbe1ae8d3]
+link sub_categories to products--><path codeLine="288" d="M939.657,704.632 C933.739,742.619 925.244,797.142 918.031,843.442 " fill="none" id="sub_categories-to-products" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="918.0233" x2="924.6967" y1="843.4863" y2="851.391"/><line style="stroke:#A80036;stroke-width:1.0;" x1="918.0233" x2="908.8873" y1="843.4863" y2="851.391"/><line style="stroke:#A80036;stroke-width:1.0;" x1="918.0233" x2="916.792" y1="843.4863" y2="851.391"/><!--MD5=[2e04dbbb78910cda89e79df7e2e2bb1f]
+link brands to products--><path codeLine="289" d="M804.012,934.5 C812.983,934.5 821.954,934.5 830.925,934.5 " fill="none" id="brands-to-products" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="831.164" x2="839.164" y1="934.5" y2="926.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="831.164" x2="839.164" y1="934.5" y2="942.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="831.164" x2="839.164" y1="934.5" y2="934.5"/><!--MD5=[eb6779809d4bb72777f6921956ac7dba]
+link products to reviews--><path codeLine="290" d="M904,1017.637 C904,1050.792 904,1087.714 904,1115.5772 " fill="none" id="products-to-reviews" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="904" x2="912" y1="1115.9195" y2="1123.9195"/><line style="stroke:#A80036;stroke-width:1.0;" x1="904" x2="896" y1="1115.9195" y2="1123.9195"/><line style="stroke:#A80036;stroke-width:1.0;" x1="904" x2="904" y1="1115.9195" y2="1123.9195"/><!--MD5=[9d8d189305fb7377cf2fc1f3d891d814]
+link products to variants--><path codeLine="291" d="M968.793,934.5 C977.581,934.5 986.369,934.5 995.157,934.5 " fill="none" id="products-to-variants" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="995.227" x2="1003.227" y1="934.5" y2="926.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="995.227" x2="1003.227" y1="934.5" y2="942.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="995.227" x2="1003.227" y1="934.5" y2="934.5"/><!--MD5=[6cb89ee878b3ecf653110c918f09b988]
+link variants to discounts--><path codeLine="292" d="M1076.53,804.849 C1079.42,677.803 1087.66,478.233 1111,307 C1114.11,284.168 1119.16,259.298 1124.06,237.831 " fill="none" id="variants-to-discounts" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1124.1157" x2="1118.1261" y1="237.5759" y2="229.782"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1124.1157" x2="1133.7139" y1="237.5759" y2="229.782"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1124.1157" x2="1125.92" y1="237.5759" y2="229.782"/><!--MD5=[f89907d0dac02610361ea86bc640339f]
+link event_products to variants--><path codeLine="293" d="M90.2684,698.938 C103.1641,716.277 120.48,734.75 141,745 C309.41,829.122 822.443,711.794 986,805 C989.831,807.183 993.535,809.607 997.112,812.233 " fill="none" id="event_products-to-variants" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997.1137" x2="1003.412" y1="812.2343" y2="810.8687"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997.1137" x2="1003.412" y1="812.2343" y2="823.4653"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997.1137" x2="1003.412" y1="812.2343" y2="817.167"/><!--MD5=[aae4a4e272e5f9e456c387292fe7b941]
+link users to staff_regular_availability--><path codeLine="357" d="M2378.18,247.29 C2395.52,276.717 2416,311.465 2433.39,340.979 " fill="none" id="users-to-staff_regular_availability" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2433.4457" x2="2444.4007" y1="341.0803" y2="347.971"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2433.4457" x2="2430.6193" y1="341.0803" y2="347.971"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2433.4457" x2="2437.51" y1="341.0803" y2="347.971"/><!--MD5=[9dd328d29555c80abbe3b8dc9449b2a8]
+link users to staff_holiday_availability--><path codeLine="358" d="M2385.14,196.4 C2444.32,215.809 2550.01,254.632 2630,307 C2657.29,324.867 2684.04,350.054 2703.85,370.616 " fill="none" id="users-to-staff_holiday_availability" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2703.9806" x2="2715.2911" y1="370.7669" y2="376.558"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2703.9806" x2="2703.7089" y1="370.7669" y2="376.558"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2703.9806" x2="2709.5" y1="370.7669" y2="376.558"/><!--MD5=[8d220b90f5406ad168512892a4918cf7]
+link users to staff_planned_leaves--><path codeLine="359" d="M2294.82,183.5 C2196.14,187.55 1956.74,207.718 1789,307 C1769.38,318.612 1751.79,336.094 1737.59,353.18 " fill="none" id="users-to-staff_planned_leaves" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1737.5475" x2="1738.7248" y1="353.2312" y2="359.446"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1737.5475" x2="1726.2952" y1="353.2312" y2="359.446"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1737.5475" x2="1732.51" y1="353.2312" y2="359.446"/><!--MD5=[08ce8ac92519af924e0c75d5f2b1a127]
+link users to wave_available_staff--><path codeLine="360" d="M2385.24,184.94 C2476.32,191.7 2685.6,216.649 2832,307 C2857.6,322.798 2879.62,348.687 2894.98,370.097 " fill="none" id="users-to-wave_available_staff" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2895.1333" x2="2906.2745" y1="370.3175" y2="376.872"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2895.1333" x2="2893.1655" y1="370.3175" y2="376.872"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2895.1333" x2="2899.72" y1="370.3175" y2="376.872"/><!--MD5=[d5b470341242d19321596e2a6dc23f5e]
+link wave_timings to wave_available_staff--><path codeLine="361" d="M3089.45,212.112 C3066.92,237.292 3033.75,274.439 3005,307 C2986.44,328.018 2965.78,351.639 2949.25,370.591 " fill="none" id="wave_timings-to-wave_available_staff" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2949.0679" x2="2949.8395" y1="370.7995" y2="376.829"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2949.0679" x2="2937.7805" y1="370.7995" y2="376.829"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2949.0679" x2="2943.81" y1="370.7995" y2="376.829"/><!--MD5=[cadff04237e344be96fcaf629fbf0708]
+link wave_timings to wave_available_vehicles--><path codeLine="362" d="M3142.29,212.245 C3178.49,253.194 3243.58,326.835 3282.39,370.734 " fill="none" id="wave_timings-to-wave_available_vehicles" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3282.6074" x2="3293.9002" y1="370.9978" y2="376.988"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3282.6074" x2="3281.9198" y1="370.9978" y2="376.988"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3282.6074" x2="3287.91" y1="370.9978" y2="376.988"/><!--MD5=[e66f523ddf09815a207f8f24d6e2d8d6]
+link vehicles to wave_available_vehicles--><path codeLine="363" d="M3198.05,407.5 C3207.16,407.5 3216.27,407.5 3225.38,407.5 " fill="none" id="vehicles-to-wave_available_vehicles" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3225.38" x2="3233.38" y1="407.5" y2="399.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3225.38" x2="3233.38" y1="407.5" y2="415.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3225.38" x2="3233.38" y1="407.5" y2="407.5"/><!--MD5=[6978e524cb417717a30d8ff0d724a47f]
+link vendor_profiles to vendor_locations--><path codeLine="414" d="M513.543,656.5 C522.684,656.5 531.825,656.5 540.965,656.5 " fill="none" id="vendor_profiles-to-vendor_locations" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="540.998" x2="548.998" y1="656.5" y2="648.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="540.998" x2="548.998" y1="656.5" y2="664.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="540.998" x2="548.998" y1="656.5" y2="656.5"/><!--MD5=[66680f699523c82a9bd355f7f8d29e7f]
+link vendor_profiles to vendor_booth--><path codeLine="415" d="M442,745.207 C442,790.992 442,845.334 442,883.842 " fill="none" id="vendor_profiles-to-vendor_booth" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="442" x2="450" y1="884.297" y2="892.297"/><line style="stroke:#A80036;stroke-width:1.0;" x1="442" x2="434" y1="884.297" y2="892.297"/><line style="stroke:#A80036;stroke-width:1.0;" x1="442" x2="442" y1="884.297" y2="892.297"/><!--MD5=[7bbdb4ea0ae0b49da1b443d19d399b6f]
+link vendor_locations to vendor_booth--><path codeLine="416" d="M587.766,716.033 C554.001,766.406 505.872,838.21 474.294,885.321 " fill="none" id="vendor_locations-to-vendor_booth" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="474.2131" x2="476.4044" y1="885.4416" y2="892.087"/><line style="stroke:#A80036;stroke-width:1.0;" x1="474.2131" x2="463.1136" y1="885.4416" y2="892.087"/><line style="stroke:#A80036;stroke-width:1.0;" x1="474.2131" x2="469.759" y1="885.4416" y2="892.087"/><!--MD5=[22458eb1b4125c66a7ebb7cea7278afd]
+link events to vendor_booth--><path codeLine="417" d="M296.459,727.503 C331.446,777.024 377.438,842.119 408.271,885.761 " fill="none" id="events-to-vendor_booth" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="408.2803" x2="419.4302" y1="885.7728" y2="892.307"/><line style="stroke:#A80036;stroke-width:1.0;" x1="408.2803" x2="406.3618" y1="885.7728" y2="892.307"/><line style="stroke:#A80036;stroke-width:1.0;" x1="408.2803" x2="412.896" y1="885.7728" y2="892.307"/><!--MD5=[21fc4f10d2b0716fd90045c564a8b0e8]
+link events to event_address--><path codeLine="418" d="M250.297,727.503 C252.403,772.213 255.107,829.618 257.125,872.468 " fill="none" id="events-to-event_address" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="257.1313" x2="265.4982" y1="872.5728" y2="880.564"/><line style="stroke:#A80036;stroke-width:1.0;" x1="257.1313" x2="249.5158" y1="872.5728" y2="880.564"/><line style="stroke:#A80036;stroke-width:1.0;" x1="257.1313" x2="257.507" y1="872.5728" y2="880.564"/><!--MD5=[ba26ac73047abb2166bfb2e74bfe59eb]
+reverse link events to event_schedule--><path codeLine="419" d="M206.773,734.603 C178.902,788.022 143.085,856.67 121.647,897.76 " fill="none" id="events-backto-event_schedule" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="206.7764" x2="203.3844" y1="734.5956" y2="727.503"/><line style="stroke:#A80036;stroke-width:1.0;" x1="206.7764" x2="217.5696" y1="734.5956" y2="727.503"/><line style="stroke:#A80036;stroke-width:1.0;" x1="206.7764" x2="210.477" y1="734.5956" y2="727.503"/><!--MD5=[f9736c96189f48ec047b1f3d2967eb8b]
+reverse link event_products to events--><path codeLine="423" d="M131.451,656.5 C140.33,656.5 149.209,656.5 158.088,656.5 " fill="none" id="event_products-backto-events" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="131.297" x2="123.297" y1="656.5" y2="664.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="131.297" x2="123.297" y1="656.5" y2="648.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="131.297" x2="123.297" y1="656.5" y2="656.5"/><!--MD5=[0f8e2c967e91a2b1a88c771c5531714d]
+reverse link discounts to order_discount--><path codeLine="424" d="M1208.07,181.5 C1245.99,181.5 1283.9,181.5 1321.82,181.5 " fill="none" id="discounts-backto-order_discount" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1207.98" x2="1199.98" y1="181.5" y2="189.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1207.98" x2="1199.98" y1="181.5" y2="173.5"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1207.98" x2="1199.98" y1="181.5" y2="181.5"/><!--MD5=[25a3933ad4e318fa3765703994c76335]
+reverse link discounts to line_items_discount--><path codeLine="425" d="M1153.46,237.468 C1165.82,281.43 1182.69,341.383 1192.65,376.81 " fill="none" id="discounts-backto-line_items_discount" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1153.4423" x2="1143.5778" y1="237.4332" y2="229.731"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1153.4423" x2="1158.9822" y1="237.4332" y2="229.731"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1153.4423" x2="1151.28" y1="237.4332" y2="229.731"/><!--MD5=[28fc1ff2dab95d638d254406d0ca32ee]
+reverse link discounts to event_products--><path codeLine="426" d="M1068.32,198.424 C980.438,219.357 825.3,259.143 697,307 C441.23,402.403 358.77,403.392 141,568 C123.825,580.982 107.73,598.398 94.813,614.274 " fill="none" id="discounts-backto-event_products" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1068.5651" x2="1076.35" y1="198.3627" y2="188.7351"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1068.5651" x2="1076.35" y1="198.3627" y2="204.3049"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1068.5651" x2="1076.35" y1="198.3627" y2="196.52"/><!--MD5=[c994720efec019bc3ef3e5a4abcbfbbd]
+@startuml
+object orders {
+    order_id [P]
+    wave_id [F]
+    user_id [F]
+    order_discount_id [F]
+    order_amount
+    shipping_type 
+    status 
+    order_date
+    order_refund_status
+    }
+
+object line_items{
+    line_items_id [P]
+    order_id [F]
+    product_id [F]
+    variant_id [F]
+    line_item_discount_id [F]
+    tax_id [F]
+    line_items_quantity
+    line_items_total
+    }
+
+object tax{
+    tax_id [P]
+    province [F]
+    GST/HST
+    PST
+    total_tax_rate
+    }
+
+object refunds{
+    refunds_id [P]
+    line_items_id [F]
+    refunds_status 
+    refunds_date
+    }
+
+
+object transactions{
+    transactions_id [P]
+    order_id [F]
+    refunds_id [F]
+    transaction_time
+    transactions_type
+    transactions_amount
+    payment_confirmation_id [F]
+    transactions_status 
+      (complete/pending/declined)
+    }
+
+
+object carts{
+    cart_id [P]
+    user_id [F]
+    product_id [F]
+    varient_id [F]
+    quantity
+    line_item_discount_id 
+    }
+
+
+object delivery_method{
+    delivery_method_id [P]
+    delivery_method
+    }
+
+object line_items_discount{
+    line_item_discount_id [P]
+    Line_items_id
+    discount_id [F]
+    }
+
+object order_discount{
+    order_discount_id [P]
+    order_id [F]
+    discount_id [F]
+    }
+
+object stripe{
+    payment_confirmation_id [P]
+    }
+    
+
+order_discount - -{ orders
+carts - orders
+orders - -{ line_items
+line_items }- refunds
+orders - transactions
+orders - delivery_method
+refunds - transactions
+tax - line_items
+line_items_discount -{ line_items
+line_items_discount -{ carts
+stripe - - transactions
+
+
+
+object users{
+    user_id [P]
+    user_name
+    user_password
+    first_name
+    last_name
+    phone
+    mobile
+    email
+    date_entered
+    }
+
+object customer_profiles{
+    customer_id [P]
+    user_id [F]
+    gender
+    note
+    }
+
+object addresses{
+    addresses_id [P]
+    customer_id [F]
+    addresses_type
+    street_address
+    city
+    province
+    post_code
+    }
+
+
+object notifications_settings{
+    notification_id [P]
+    customer_id [F]
+    type (sms/email)
+    channel_content
+    notification(y/n)
+    promotional_content
+    }
+
+
+object notifications_content{
+    content_id [P]
+    notification_id [F]
+    content_of_notification 
+    }
+
+object picker_profiles{
+    picker_id [P]
+    user_id [F]
+    can_lift_up_to_lb
+    note
+    }
+
+object driver_profiles{
+    driver_id [P]
+    user_id [F]
+    license_class
+    airbrake_certification
+    can_lift_up_to_lb
+    note
+    }
+
+Object admin_profiles{
+    admin_id [P]
+    user_id [F]
+    note
+    }
+
+object vendor_profiles{
+    vendor_id [P]
+    user_id [F]
+    vendor_name
+    vendor_mailing_address
+    vendor_contact_name
+    vendor_contact_phone
+    vendor_contact_email
+    gst_number
+    vendor_logo_url
+    business_license_num
+    vendor_website_url
+    vendor_business_type
+    vendor_notes
+    }
+
+object users_roles {
+    roles_id 
+    user_id
+    }
+
+object roles{
+    role_id
+    role_name
+    }
+
+
+customer_profiles - - notifications_settings
+notifications_settings - - notifications_content
+customer_profiles - -{ addresses
+users - - - customer_profiles
+users - - - picker_profiles
+users - - - driver_profiles
+users - - - admin_profiles
+users - - - vendor_profiles
+users_roles - - users
+users_roles - roles
+
+object products{
+    product_id [P]
+    brand_id [F]
+    supplier_id [F]
+    category_id [F]
+    vendor_product_id [F]
+    product_name
+    product_description
+    options
+    picture
+    rating
+    related
+    note
+    }
+
+object brands{
+    brand_id [P]
+    product_id [F]
+    brand_name
+    }
+
+object reviews{
+    review_id [P]
+    product_id [F]
+    customer_ratings
+    review_text
+    }
+
+object categories{
+    category_id [P]
+    category_name
+    }
+
+object sub_categories{
+    sub_category_id [P]
+    category_id [F]
+    product_id [F]
+    sub_category_name
+    sub_category_image
+    sub_category_description
+    }
+
+object variants{
+    variant_id [P]
+    product_id [F]
+    variant_description
+    store_name
+    SKU
+    size
+    color
+    weight
+    weight_unit
+    unit_price
+    msrp
+    discount_id
+    taxable_or_not
+    dimensions_length
+    dimensions_length_unit
+    dimensions_width
+    dimensions_width_unit
+    dimensions_height
+    dimensions_heighe_unit
+    units_in_stock
+    }
+
+object discounts{
+    discount_id [P]
+    variant_id [F]
+    events_id [F]
+    discount_type
+    discount_amount
+    discount_description
+    }
+
+object event_products{
+    event_product_id
+    break_out_quantity
+    discount_id
+    event_id
+    variant_id
+    }
+
+categories -{ sub_categories
+sub_categories - -{ products 
+brands -{ products
+products - -{ reviews
+products -{ variants
+variants -{ discounts
+event_products - -{ variants
+
+object staff_regular_availability{
+    user_ra_interval_id
+    user_id
+    day_of_week
+    interval_id
+    interval_beginning_time
+    interval_end_time
+    exceptions
+    note
+    }
+
+object staff_holiday_availability{
+    user_ha_id
+    user_id
+    note
+    }
+
+object staff_planned_leaves{
+    user_pl_id
+    user_id
+    leave_id
+    beginning_date
+    end_date
+    note
+    }
+
+object wave_available_staff{
+    wave_user_id
+    wave_id
+    user_id
+    }
+
+object wave_available_vehicles{
+    wave_vehicle_id
+    wave_id
+    vehicle_id
+    }
+
+object vehicles{
+    vehicle_id
+    vehicle_type
+    max_freight_weight_kg
+    max_freight_volume_m3
+    vehicle_make
+    vehicle_model
+    vehicle_class
+    vehicle_licence_plate
+    vehicle_identification_number
+    registered_owner_name
+    vehicle_is_leased
+    lease_dealer
+    leased_from
+    leased_until
+    note
+    }
+
+object wave_timings{
+    wave_id
+    wave_beginning_time
+    wave_sutoff_time
+    }
+
+users - -{ staff_regular_availability
+users - -{ staff_holiday_availability
+users - -{ staff_planned_leaves
+users - -{ wave_available_staff
+wave_timings - -{ wave_available_staff
+wave_timings - -{ wave_available_vehicles
+vehicles -{ wave_available_vehicles
+
+object vendor_locations{
+    vendor_location_id [P]
+    vendor_id [F]
+    vendor_location_type
+    vendor_street_number
+    vendor_street_name
+    vendor_street_direction
+    vendor_city
+    vendor_street_postal_code
+    }
+
+object vendor_booth{
+    vendor_booth_id [P]
+    event_id [F]
+    vendor_id [F]
+    vendor_location_id [F]
+    vendor_booth_number
+    }
+
+object events{
+    event_id
+    event_name
+    event_contact_name
+    event_contact_phone_number
+    event_email
+    event_website_url
+    event_booth_plan
+    event_logo
+    event_type
+    event_capabilities
+    }
+
+object event_address{
+    event_address_id
+    event_id
+    event_street_number
+    event_street_name
+    event_street_direction
+    event_city
+    event_postal_code
+    }
+
+object event_schedule{
+    event_schedule_id
+    event_id
+    event_start_date
+    event_end_date
+    }
+
+vendor_profiles -{ vendor_locations
+vendor_profiles -{ vendor_booth
+vendor_locations - -{ vendor_booth
+events - -{ vendor_booth
+events - -{ event_address
+events }- - event_schedule
+
+
+
+event_products }- events
+discounts }- order_discount
+discounts }- line_items_discount
+discounts }- - - event_products
+@enduml
+
+PlantUML version 1.2021.17beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
