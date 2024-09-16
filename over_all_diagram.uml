@@ -1,0 +1,428 @@
+@startuml
+object orders {
+    order_id [P]
+    wave_id [F]
+    user_id [F]
+    order_discount_id [F]
+    order_amount
+    shipping_type 
+    status 
+    order_date
+    order_refund_status
+    }
+
+object line_items{
+    line_items_id [P]
+    order_id [F]
+    product_id [F]
+    variant_id [F]
+    line_item_discount_id [F]
+    tax_id [F]
+    line_items_quantity
+    line_items_total
+    }
+
+object tax{
+    tax_id [P]
+    province [F]
+    GST/HST
+    PST
+    total_tax_rate
+    }
+
+object refunds{
+    refunds_id [P]
+    line_items_id [F]
+    refunds_status 
+    refunds_date
+    }
+
+
+object transactions{
+    transactions_id [P]
+    order_id [F]
+    refunds_id [F]
+    transaction_time
+    transactions_type
+    transactions_amount
+    payment_confirmation_id [F]
+    transactions_status 
+      (complete/pending/declined)
+    }
+
+
+object carts{
+    cart_id [P]
+    user_id [F]
+    product_id [F]
+    varient_id [F]
+    quantity
+    line_item_discount_id 
+    }
+
+
+object delivery_method{
+    delivery_method_id [P]
+    delivery_method
+    }
+
+object line_items_discount{
+    line_item_discount_id [P]
+    Line_items_id
+    discount_id [F]
+    }
+
+object order_discount{
+    order_discount_id [P]
+    order_id [F]
+    discount_id [F]
+    }
+
+object stripe{
+    payment_confirmation_id [P]
+    }
+    
+
+order_discount --{ orders
+carts - orders
+orders --{ line_items
+line_items }- refunds
+orders - transactions
+orders - delivery_method
+refunds - transactions
+tax - line_items
+line_items_discount -{ line_items
+line_items_discount -{ carts
+stripe -- transactions
+
+
+
+object users{
+    user_id [P]
+    user_name
+    user_password
+    first_name
+    last_name
+    phone
+    mobile
+    email
+    date_entered
+    }
+
+object customer_profiles{
+    customer_id [P]
+    user_id [F]
+    gender
+    note
+    }
+
+object addresses{
+    addresses_id [P]
+    customer_id [F]
+    addresses_type
+    street_address
+    city
+    province
+    post_code
+    }
+
+
+object notifications_settings{
+    notification_id [P]
+    customer_id [F]
+    type (sms/email)
+    channel_content
+    notification(y/n)
+    promotional_content
+    }
+
+
+object notifications_content{
+    content_id [P]
+    notification_id [F]
+    content_of_notification 
+    }
+
+object picker_profiles{
+    picker_id [P]
+    user_id [F]
+    can_lift_up_to_lb
+    note
+    }
+
+object driver_profiles{
+    driver_id [P]
+    user_id [F]
+    license_class
+    airbrake_certification
+    can_lift_up_to_lb
+    note
+    }
+
+Object admin_profiles{
+    admin_id [P]
+    user_id [F]
+    note
+    }
+
+object vendor_profiles{
+    vendor_id [P]
+    user_id [F]
+    vendor_name
+    vendor_mailing_address
+    vendor_contact_name
+    vendor_contact_phone
+    vendor_contact_email
+    gst_number
+    vendor_logo_url
+    business_license_num
+    vendor_website_url
+    vendor_business_type
+    vendor_notes
+    }
+
+object users_roles {
+    roles_id 
+    user_id
+    }
+
+object roles{
+    role_id
+    role_name
+    }
+
+
+customer_profiles -- notifications_settings
+notifications_settings -- notifications_content
+customer_profiles --{ addresses
+users --- customer_profiles
+users --- picker_profiles
+users --- driver_profiles
+users --- admin_profiles
+users --- vendor_profiles
+users_roles -- users
+users_roles - roles
+
+object products{
+    product_id [P]
+    brand_id [F]
+    supplier_id [F]
+    category_id [F]
+    vendor_product_id [F]
+    product_name
+    product_description
+    options
+    picture
+    rating
+    related
+    note
+    }
+
+object brands{
+    brand_id [P]
+    product_id [F]
+    brand_name
+    }
+
+object reviews{
+    review_id [P]
+    product_id [F]
+    customer_ratings
+    review_text
+    }
+
+object categories{
+    category_id [P]
+    category_name
+    }
+
+object sub_categories{
+    sub_category_id [P]
+    category_id [F]
+    product_id [F]
+    sub_category_name
+    sub_category_image
+    sub_category_description
+    }
+
+object variants{
+    variant_id [P]
+    product_id [F]
+    variant_description
+    store_name
+    SKU
+    size
+    color
+    weight
+    weight_unit
+    unit_price
+    msrp
+    discount_id
+    taxable_or_not
+    dimensions_length
+    dimensions_length_unit
+    dimensions_width
+    dimensions_width_unit
+    dimensions_height
+    dimensions_heighe_unit
+    units_in_stock
+    }
+
+object discounts{
+    discount_id [P]
+    variant_id [F]
+    events_id [F]
+    discount_type
+    discount_amount
+    discount_description
+    }
+
+object event_products{
+    event_product_id
+    break_out_quantity
+    discount_id
+    event_id
+    variant_id
+    }
+
+categories -{ sub_categories
+sub_categories --{ products 
+brands -{ products
+products --{ reviews
+products -{ variants
+variants -{ discounts
+event_products --{ variants
+
+object staff_regular_availability{
+    user_ra_interval_id
+    user_id
+    day_of_week
+    interval_id
+    interval_beginning_time
+    interval_end_time
+    exceptions
+    note
+    }
+
+object staff_holiday_availability{
+    user_ha_id
+    user_id
+    note
+    }
+
+object staff_planned_leaves{
+    user_pl_id
+    user_id
+    leave_id
+    beginning_date
+    end_date
+    note
+    }
+
+object wave_available_staff{
+    wave_user_id
+    wave_id
+    user_id
+    }
+
+object wave_available_vehicles{
+    wave_vehicle_id
+    wave_id
+    vehicle_id
+    }
+
+object vehicles{
+    vehicle_id
+    vehicle_type
+    max_freight_weight_kg
+    max_freight_volume_m3
+    vehicle_make
+    vehicle_model
+    vehicle_class
+    vehicle_licence_plate
+    vehicle_identification_number
+    registered_owner_name
+    vehicle_is_leased
+    lease_dealer
+    leased_from
+    leased_until
+    note
+    }
+
+object wave_timings{
+    wave_id
+    wave_beginning_time
+    wave_sutoff_time
+    }
+
+users --{ staff_regular_availability
+users --{ staff_holiday_availability
+users --{ staff_planned_leaves
+users --{ wave_available_staff
+wave_timings --{ wave_available_staff
+wave_timings --{ wave_available_vehicles
+vehicles -{ wave_available_vehicles
+
+object vendor_locations{
+    vendor_location_id [P]
+    vendor_id [F]
+    vendor_location_type
+    vendor_street_number
+    vendor_street_name
+    vendor_street_direction
+    vendor_city
+    vendor_street_postal_code
+    }
+
+object vendor_booth{
+    vendor_booth_id [P]
+    event_id [F]
+    vendor_id [F]
+    vendor_location_id [F]
+    vendor_booth_number
+    }
+
+object events{
+    event_id
+    event_name
+    event_contact_name
+    event_contact_phone_number
+    event_email
+    event_website_url
+    event_booth_plan
+    event_logo
+    event_type
+    event_capabilities
+    }
+
+object event_address{
+    event_address_id
+    event_id
+    event_street_number
+    event_street_name
+    event_street_direction
+    event_city
+    event_postal_code
+    }
+
+object event_schedule{
+    event_schedule_id
+    event_id
+    event_start_date
+    event_end_date
+    }
+
+vendor_profiles -{ vendor_locations
+vendor_profiles -{ vendor_booth
+vendor_locations --{ vendor_booth
+events --{ vendor_booth
+events --{ event_address
+events }-- event_schedule
+
+
+
+event_products }- events
+discounts }- order_discount
+discounts }- line_items_discount
+discounts }--- event_products
+@enduml
